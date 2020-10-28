@@ -16,3 +16,4 @@
 ## Index
 
 * 2020/10/28 - [Linus: When is no-code useful?](2020/10/28): 讨论了低代码平台存在的问题，以及作者认为低代码平台要解决的问题。文章中对于复杂度、软件工程的本质提出了一些看法。
+* 2020/10/29 - [A Trip Down the DNS Rabbit Hole: Understanding the Role of Kubernetes, Golang, libc, systemd](2020/10/29): 细致地讨论了 Kubernetes 系统中的 DNS 原理。

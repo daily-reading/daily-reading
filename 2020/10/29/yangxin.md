@@ -34,8 +34,7 @@ hosts:      files dns myhostname
       
 - Kuberhealthy 使用pure go resolver，which use /etc/resolv.conf to determine where and how to send the DNS query
 
-# 总结
-我看晕了，感觉这篇太绕了
+
 ## coredns and minikube DNS query routing
 ```
 container$ cat /etc/resolv.conf
@@ -59,3 +58,5 @@ nameserver 10.0.2.3
 
 - 在centos可以成功，因为centos用systemd
 - This causes a libc resolve of any hostname ending in ".localhost" or ".localhost.localdomain") are resolved to the IP addresses 127.0.0.1 and ::1.
+# 总结
+- 需要在systemd的image上强制使用cgo resolver才能解析成功

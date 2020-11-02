@@ -7,7 +7,7 @@
     - 如 CheckLists - to see progress
     - 如 Pair 一个 Mentor 优先去解决 New Hire 的一切问题
 - 为了应对变化，这个过程偶尔需要 revamp 一下，作者提到了一些 improvement
-    - 如指定 POCs（ Points of Contact）专门负责迭代以及作为某个领域的「 客服 」
+    - 如指定 POCs（ Points of Contact ）专门负责迭代以及作为某个领域的「 客服 」
     - 如为文档建立一个「 模板 」，可以适用于任何团队
     - 如建立反馈机制（ Feedback Loop ），任何参与者都会使这个过程变得更好
     - 如对一些课程的「 录制回放 」，也会帮到一些 need-a-quick-refresher 的老员工

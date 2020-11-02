@@ -25,4 +25,4 @@
     - Software is stacks of abstraction layers
     - Complexity always leaks out
     - I think we should try to push the conserved complexity from our problems towards the interfaces between our software components, rather than try to contain and abstract it away into idealized reusable parts
-    - The best interfaces accurately reflect the complexity of the problem, while hiding away unnecessary detail —— this is about uilding your own programming language
+    - The best interfaces accurately reflect the complexity of the problem, while hiding away unnecessary detail —— this is about building your own programming language

@@ -60,3 +60,34 @@
 - 这句话也太真实了
 > : always follow up, and if you own a task, it’s your responsibility to move it forward. Don’t get stuck playing the role, actually get shit done: be it by delegating or doing it yourself.
 - 很多事情都是提了一个很好的构思，然后没有推进了。
+## coding
+- Don’t write code you don’t understand
+- Prioritise learning whenever possible
+- Preserve context for future you
+- Aim for a level 2-3 understanding of code your team owns
+- Code reviews help keep your mental models up to date
+## Testing
+- With optimisation problems, measure instead of assuming.
+- Have a clean staging environment. Containerisation is cool.
+- Optimise for 0 false positives.
+## Design
+- There’s no holy grail design that will always work
+- Almost every system design is about trade-offs. The good engineers make these trade-offs explicit.
+- Design有些时候就是一些基础组件的排列组合。不同限定条件下最优解不同
+- 同时也要考虑如何迁移新老系统，不然就要同时维护
+- Every system design is about trade-offs.
+- There’s limited technical components to every design.
+- People have definite lenses with which they approach design, just like mental models.
+- Preserve context when designing: write down your constraints and trade-offs.
+- When replacing old systems, have a clear migration path.
+## Some gotchas with growing
+### Sometimes, I feel I need to know the answer to everything
+- there are bound to be questions I don’t know the answer to. 
+- Confidence to express ignorance is a super power.
+- 感觉这点我确实得注意
+### Sometimes, I lose my cool
+> I stop reasoning about things rationally and write whatever garbage I can to solve the problem. Add a call, add a bracket, print random stuff, just get things to run some way. This usually starts when it takes me longer than expected to fix something.
+- 病急乱投医，瞎猫碰上死耗子，往往花费更多的时间。
+### Neophilia
+- 人们很容易过度优化
+- Make decisions for the right reasons, not to try something new out

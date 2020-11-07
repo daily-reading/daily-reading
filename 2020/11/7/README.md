@@ -1,4 +1,4 @@
-# Building Airbnb's Internationalization Platfor
+# Building Airbnb's Internationalization Platform
 
 * Author: Hua Zheng
 * Link: https://medium.com/airbnb-engineering/building-airbnbs-internationalization-platform-45cf0104b63c

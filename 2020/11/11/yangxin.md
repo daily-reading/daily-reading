@@ -6,4 +6,12 @@
 - principles and measures，如果没有measure其实很多principles都会无疾而终
 
 ## Procedure- vs Data-Oriented Design
-- 感觉
+- 为啥叫Data-Oriented，感觉有点像是Object-Oriented    
+  - define classes of objects     
+  - encapsulate an internal representation of an object accessed via a public API of methods on the object
+- 作者认为SOA是倒退到了procedure-oriented
+
+## Viaduct: A Data-Oriented Service Mesh
+- 感觉mesh centor需要做一些分发和聚合的操作，并且要维护schema
+- 这么一搞依赖图确实简洁很多，但是感觉是把维护依赖的复杂性从service端转移到centor统一管理。
+https://www.zhihu.com/question/264629587

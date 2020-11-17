@@ -1,0 +1,25 @@
+# Making the most of your one-on-one with your manager or other leadership
+- one-one的重要性
+- get undivided attention
+- 建立信任，定期推行
+- 不要只是简单地同步基本信息
+- think about the areas you need their support, advice, or a decision. 或者你想让他们了解的方面
+  - Current projects
+    - need support？
+    - need decision？
+    - need more member
+  - Feedback
+    - 对自己工作的看法
+    - 需要改进的地方
+    - 什么阻碍了自己的发展
+  - Professional development
+    - 对于提高自己不确定怎么执行的地方
+    - 自己想参加的会议，课程
+  - Future opportunities
+    - 之后想参加的项目
+    - 希望获得领导的经验
+    - 对一些团队角色感兴趣
+- 最大效益化利用这段时间
+- What decision do they need to make and what information do they need to make it?         需要工作中的支持
+- What knowledge do you want them to remember about you so they can support your career progression?     个人的提升
+- What specific action do you want them to take to support the success of your team?     个人工作方向的愿景

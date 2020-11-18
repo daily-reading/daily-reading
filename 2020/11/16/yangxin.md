@@ -1,0 +1,29 @@
+# Building Netflix’s Distributed Tracing Infrastructure
+- 先说了一下Netflix排查视频问题有多麻烦
+- 以streaming session为维度聚合trace
+  - 聚合了account metadata
+  - 聚合了service logs
+- 历史背景
+  - 开始设计时并没有成熟的开源方案
+  - 2017年选择了open-zipkin
+- 系统架构
+  - 探针->流处理->storage->前端
+  - 存储用的Cassandra
+- sample
+  - 针对流量优先级不同可以配置不同的采样率
+- storage
+  - 最开始选择es，但是高并发写导致es读写效率显著降低
+  - 迁移到了Cassandra （为啥不上hbase）
+    - 使用cheaper的volume而不是SSD
+    - 压缩文件
+    - 只存储感兴趣的数据 带tag error retry waring    trace大多数情况下只关注异常的流量
+    - 之后可以通过机器学习分类
+    - 感觉存储的优化任重而道远，Netflix就做到了极致
+    - 分层存储 最新数据放在cassandra，历史数据存S3
+- trace的用途
+  - 应用健康监控
+  - 压测、混沌工程
+- whats next
+  - 更多的推广接入trace
+  - 提高查询数据分析能力
+  - 结合metrics，logging

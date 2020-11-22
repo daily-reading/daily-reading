@@ -1,0 +1,29 @@
+# [Making the most of your one-on-one with your manager or other leadership](https://stackoverflow.blog/2020/10/27/make-the-most-one-on-one-with-your-manager-successful/)
+
+- 重视每一次 one-on-one 会议的机会，one-on-one 会议非常重要
+- 固定会议周期，并且提前准备，可以提高会议效率
+- Try not to use this time to give basic status updates; send those by email or other methods. 
+    - Instead, think about the areas you need their support, advice, or a decision.
+    - think about where you want them to have information or knowledge about you.
+- 提前需要准备的内容
+    - Current projects
+        - 是否需要支持
+        - 是否需要一些决策的建议
+        - 团队是否需要一些新的成员或者新的技能
+    - Feedback
+        - 近几周有哪些做的比较好
+        - 目前在这个岗位上是否能做得更好，怎么做得更好
+        - 有哪些地方需要更加关注
+        - 哪些地方是自身发展的阻碍
+    - Professional development
+        - 职业发展规划
+        - 哪些技能需要提高，怎么提高
+    - Future opportunities
+        - 未来感兴趣的项目
+        - 希望获得项目管理经验
+        - 对别的团队中的某些角色感兴趣 
+- 最大效率的去利用这段时间, 简明扼要
+    - 有哪些决策和信息想要了解
+    - 自身有哪些技能希望被记住（推销）
+    - 需要获得哪些支持
+    - thank them for their time, support, and advice at the end of each meeting

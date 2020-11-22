@@ -1,4 +1,4 @@
-Building Netflix’s Distributed Tracing Infrastructure
+# Building Netflix’s Distributed Tracing Infrastructure
 
 * Author: Maulik Pandey
 * Link: https://netflixtechblog.com/building-netflixs-distributed-tracing-infrastructure-bb856c319304

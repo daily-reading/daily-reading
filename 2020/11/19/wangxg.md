@@ -1,0 +1,31 @@
+# [How We Build a Design System](https://blog.bitsrc.io/how-we-build-our-design-system-15713a1f1833)
+
+- 设计语言提供了一套统一的 UI-UE 交互准则，通过准则去约束组件，保证样式风格统一，提高研发效率
+- Visual Language
+    - Audit, then order.
+    - 首先先从我们已有的风格和组件中去提炼，然后总结提炼出来的内容不断完善形成一套标准化的系统，设计语言是保证组件一致性的基石.
+    - Visual consistency means creating a unified style-guide standard for colors, fonts, sizes, positions, and every other part of your visual language.
+        - typefaces
+        - typography
+        - primary and secondary colors
+        - ......
+    - 创建出一套 UI 组件的集合，然后使用某种代码框架去实现
+    - The design of your system is not ready until you have two assets:
+        - style-guide 
+        - A set of reusable visual elements that bring together both UI and UX consistency through components.
+- Shared Components
+    - 创造出一套组件生态可以进行组件分享（bit.dev）
+    - 多个组协同进行组件贡献，然后在生态系统上去贡献自己的组件
+        - 举个栗子： Evangelist in biz（one of many Scope of components that compose and extend the base-ui components）
+- Documentation and Discovery
+    - All the docs on Bit.dev are exactly what we see when we develop locally.
+    - With every new version of a component, its docs can be easily updated
+    - No extra overhead, no complex processes, no outdated documentation
+- Incremental Upgrades
+    - version 建立在组件上比建立在整个 package 上要好很多，可以针对每个组件快速的去升级和做迭代，用户也可以根据自己的需求去选择是否要进行升级
+- Rippling Changes to Dependencies
+    - 找到组件之间的依赖是非常重要的， bit 提供了 Ripple CI 可以去分析各个组件的依赖
+- Project Updates
+- Team Communication
+- Designer — Developer Collaboration
+    - Designers usually talk about elements on their canvas. Developers talk about the React component in their IDE. Users will get the code, not the design.（怼怼怼）

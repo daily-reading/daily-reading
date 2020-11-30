@@ -36,3 +36,40 @@
     - 长期对个人成长可能会好，如果你愿意花双倍的时间去
   - How to counter it
     - Strictness bias often comes from your manager, not knowing too much about your work.
+3. Leniency Bias
+  - 过分宽松
+4. Horns Bias
+  - 因为一个负面的品质或者行为而拉低了review整体
+  - How to spot it
+    - 强烈的负面反馈在某个方面，并且扩展到其他方面
+    - 引起的原因俄坑时你搞砸了一个重要项目，或者是manager信任的人对你有一些负面评价
+  - How to counter it
+    - 先确定negative trait or behavior 
+    - 试图分离负面行为对其他表现的影响
+5. Halo Bias
+  - the opposite of the horns bias
+  - How to spot it
+    - get an overly positive review
+    - have zero criticism
+  - How to counter it
+    - 询问是否还有需要改进的地方
+6. Similarity Bias
+  - 喜欢和自己相似的人
+  - How to counter it:
+    - spend more time with your manager. Get to know them.
+    - Share your background. Share a lot more about your work and how you approach things
+    - Ask for frequent feedback on your performance. Set goals together.
+    - 实在不行，就只能换队伍了
+7. Central Tendency Bias
+  - 倾向于给团队成员比较相近的评分，避免差别，例如大家都是 3 分（评分范围是 1-5 分），吃大锅饭
+  - How it can work in your favor
+    - 能力低的人获益，能力高的人损益
+  - How to counter it
+    - push your manager to identify a strength and a growth area.
+8. The Contrasting Bias
+  - 倾向于将团队成员之间互相比较，而缺乏客观的评价标准
+## Focus on the Feedback You Can Grow From
+- review不可避免带有偏见，但是如果能spot并合理利用这些偏见可以得到很多有用的信息，mananger的目的都是为了帮助你grow professionally
+- 得到不公平的feedback，不要过分推销自己，寻求 specific feedback
+- 不要急着辩解
+- Sometimes the best feedback can be painful but necessary to hear.

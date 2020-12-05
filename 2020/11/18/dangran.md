@@ -55,12 +55,48 @@
     * 相对轻松、简洁的一致性模型
     * file namespace的变更（创建等）是原子的，由master用锁进行控制
     * file region的一致性讨论
+        * 定义 defined: consistent & client 能看见 它 的写入完全成功 (consistent: 所有client看到同样的数据)
         * File region的状态取决于 修改操作的类型、成功与否、是否是并发修改
-        * 定义file region一致性：所有client能够看到相同的数据
-        * 写操作都会是 write 和 record appends
+            * 写操作都会是 write 和 record appends
+            * 如果一个写入操作没有并发的干扰的话，则是defined的（这个比较好理解）
+            * 如果一个并发写入，会让写入的region 处于一个 undefined but consistent 的情况: 所有client看到同样的数据，但是写入操作不一定是完全的
 
 
 系统交互
-后面继续
+Lease And Mutation Order
+* 修改应用于所有的副本
+* 用Lease来管理多副本管理的一致性
+* 由master下发，并管理顺序
+* 写流程
+    * client询问哪个chunkserver 持有此chunk lease 并且询问副本位置。若无lease，则下发
+    * master回复 1.location, 2.chunk primary 标示
+    * client push to all replicas. 无序，chunk server 有 LRU cache. 解耦数据流和控制流，可以使得我们单独基于拓扑关系优化数据流
+    * 当所有副本都接收到了数据之后，client send a write request to primary
+    * Primary 发送写入命令到所有 二级副本
+    * 所有副本 ack primary 写入成功
+    * primary 返回 client 具体的写入状态，如果有失败，则可以走重试流程 
+
+
+如果文件过大，client 会 拆分成多个副本
+
+* 数据流 (这里有点没搞明白)
+    * 为了利用每个机器的带宽，数据是线性的上传到一系列的chunkserver，而不是分散的用一定的拓扑目标上传？
+        * 这里我的理解是，client的上传带宽，一次只给一个chunkserver 上传？(pipeline)
+    * 这里我的理解是，在通过ip计算逻辑距离的网络拓扑中，实现了类似于P2P的上传路由？
+        * 比如S1 —> S4, 可能先从 S1 —> S2, S2 —> S4
+        * 这里避免 单纯的将 数据发到 未收到数据的 最近机器节点
+        * 而是通过 物理上最接近的拓扑图，一层一层的传递，有点像 torrent 协议里的寻址？
+        * 所以对于client而言，只会上传一个完整数据
+    * B/T + R * L，B是传输文件大小，T是网络出口带宽，R是副本数量，L是latency(很小)
+* Atomic record appends
+    * 多个client 修改同一个文件 ,  多producer, 单consumer模型
+    * 同样的控制流，在primary有了少许额外逻辑，而不是通过client distributed lock 管理
+    * 在client push 最后一片数据到所有的副本之后，发送request 到 primary
+    * primary判断chunk是否会超过64m的限制
+        * 若超过，则让client 做重试 上传到下一个chunk
+        * 一次记录追加操作最多只能 1/4 chunk 大小(16m)
+
+主节点操作
+未完待续...
 
 

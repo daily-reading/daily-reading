@@ -2,7 +2,10 @@
 
 
 
+
 文章介绍了业务缓存的用途，策略，选型等内容。
+
+[链接](https://medium.com/datadriveninvestor/all-things-caching-use-cases-benefits-strategies-choosing-a-caching-technology-exploring-fa6c1f2e93aa)
 
 ## 数据更新
 
@@ -41,7 +44,7 @@
 - couchbase：分布式缓存，文档数据库，功能多
 
 
-##总结
+## 总结
 使用写后删除，缓存有过期时间，结合解决缓存并发的方案，以及Redis LFU，解决高并发读多写少情况下，服务数据库压力过大的问题。
 
 同时，需要想清楚缓存是强依赖还是弱依赖。需要压测有、无缓存情况下，服务的不同极限，再评估对外需要提供的SLO。防止弱依赖缓存被使用成强依赖。另外，就是要做好限流、降级、熔断等预案，预防流量过大、弱依赖故障等问题。

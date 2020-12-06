@@ -1,0 +1,27 @@
+# [Micro Frontends Pattern Comparison](https://blog.bitsrc.io/microfrontend-pattern-comparison-c50a9d2e4172)
+
+- 介绍了 4 种常见的微前端架构范式
+    - 编译时集成：多仓库独立开发，汇总单点部署
+        - 好处是可以做统一处理，如迁移和优化
+        - 但我理解其实没有解决开发效率问题，因为总要 rebuild
+        - 理论上编译时可以做很多 AoT 的事情，所以应该可以做按需 rebuild，比如某些 cache
+        - 个人觉得用户体验不会有问题
+    - SSR 集成：多仓库配合反向代理实现
+        - 多 SSR 的调试开发成本可能是难以接受的，个人没体验过但想着就觉得不爱了
+        - 作者提到了 content-heavy sites，可能这个思路就是针对于某些场景可尝试
+    - 运行时 iframe 嵌套：利用 iframe 内嵌一个窗口，访问其它独立的域名展示动态内容
+        - 首先运行时和编译时的最大区别就在于，集成的过程基于用户行为，可以理解为被动的
+        - 关键是 isolation，成也是它败也是它。可以做到类似沙箱的隔离效果，而且可以灵活搭配 SSR 等技术。但页面适应能力几乎为无，体验可能会比较差
+        - 正是因为这点很明确，所以适用场景也比较明确。比如一个 entry 只是个 frame，其下的各个 content 完全无关且不需要做任何一致性或通讯保证，那可以 iframe 走起，简单高效
+    - 运行时解析 js：即一个 app shell 去 bootstrap（ 作者用的词是 load & evaluate ）多个 content，可以理解为一种 plugin mechanism
+        - 作者认为可能是个最兼顾开发体验的方式。vscode 就是这么做的，所以在此验证之下肯定有很多 loyal followers
+        - 个人认为很多框架有能力提供这种支持，要看具体情况，因为就像作者开头第一句所说，the desire to modularize the frontend has steadily increased
+- 结合个人理解谈谈，主要围绕 Angular 吧
+    - 我们的经历是直接从 1 跳到了 4
+        - 先说说「 编译时集成 」，我们尝试了 monorepo 的方式搞定多个 package，如去对约定的 package.version 做 diff-cache 从而触发 CI/CD，还是完整的一次部署，但是编译会分开多次
+        - 为什么直接到「 运行时解析 」，我个人的理由是想充分发挥框架优势，既然有了选型就基于选型去搞上层建筑生态，把很多复杂偏基础的工作交给框架处理
+    - Angular 的 NgModule 已经提供了强大的根基，Lazy-Load 很像了，基于 DI 也能搞定 Shell 与各个 Content 之间的交互
+    - 问题在于两点：Shared 元素的组织和 Angular-Webpack 的兼容。我们暂时选择了 Shared Library 去做 UI/US/Styling 的统一，用 Webpack Plugin 去 customize 了 Angular 的编译。但 Shared Library 不易过多，我理解就像微服务划分不能太多太细一样，否则开发链路太长
+    - 另外 DI 虽然解决了运行时的协调，但没有解决多项目开发问题。对此我的思路是，要么 monorepo 配合足够强大的 CI 实现，要么 Shell 需要给出 SDK，约束各个 Content 的基本环境需要以我 Shell 对齐，毕竟从名字上也能看出运行时的所有环境是由 Shell 定的，包括 Router
+    - 我们现在的挑战还有很多。例如 hack Webpack 需要一个类似 zk 的注册中心，用于在 Shell 和各个 Content 之间「 发现 」、「 管理 」和「 通知 」，这个最好要集成 CI/CD，还需要一套 Versioning 方案。再例如，是否要打破 Shell 管理全局环境的前提，因为 Content 可能由多团队管理，一致的依赖可能是不好控制的。还有例如，是否要越过 Angular 基于 RouterModule 的模块加载机制，实现页面上动态载入局部插件的功能，之前自己写了一版 NgPlugin 能一定程度解决这个问题，思想上类似 [Single SPA 的 Parcel](https://single-spa.js.org/docs/parcels-overview)
+- 提到了 Single SPA，肯定有人要说 [Qiankun](https://github.com/umijs/qiankun)，或者考虑框架无关的实现。我认为框架无关带来的复杂度会很高，所以是否有价值有待商榷或视情况而定。如果公司有核心选型，我建议还是先围绕它来打造生态，而不需要做多度实现。当然像 Qiankun 这样的方案本身很有意思，不妨碍去了解和研究

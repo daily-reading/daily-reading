@@ -25,7 +25,8 @@
 * 2020/11/18 - [The Google File System](2020/11/18): GFS，Google 的分布式文件存储系统。
 * 2020/11/20 - [Cache coherency primer](2020/11/20): CPU 缓存一致性，详细的介绍了在多核、多缓存情况下如何确保 CPU 内的缓存一致性问题。和业务缓存的场景不一样，CPU Cache 是一个强一致性缓存。
 * 2020/11/26 - [All things caching- use cases, benefits, strategies, choosing a caching technology, exploring some popular products](2020/11/26): 详细的介绍了缓存的适用场景、坑、收益，结合了从 CPU 到浏览器的各个层次缓存的实践分析。
-* 2020/11/27 - [Edgar: Solving Mysteries Faster with Observability](2020/11/27): Netflix 的 APM 系统 Edgar，融合 Tracing、 Logging、Events，100% 采样，良好的场景化设计。
+* 2020/11/29 - [Orchestrating Cassandra on Kubernetes with Operators](2020/11/29): Yelp 将它们的 Cassandra 集群从虚拟机平台（EC2）上迁移到了 Kubernetes 中，本文分享了这一迁移过程的实践。
+* 2020/12/01 - [Immutability Changes Everything](2020/12/1): 当计算和存储系统越来越便宜，并发锁同步成了系统瓶颈时，「不可变性」成了架构设计的一个趋势。本文讲述了在分布式系统设计里，「不可变性」是如何改变存储、计算和架构的。
 
 ## Architecture
 * 2020/11/07 - [Building Airbnb's Internationalization Platform](2020/11/7): 讨论了 Airbnb 的国际化平台架构，这是一篇业务架构综述文章，对 i18n 领域的常见问题进行了介绍，以及讲解了 Airbnb 的实现方案。
@@ -35,6 +36,7 @@
 * 2020/11/17 - [Building Software Systems At Google and Lessons Learned](2020/11/17): Jeff Dean 在 2010 年的分享，分享了 Google 从 1999 年到 2010 年间面临的各种不同的挑战，以及架构的演进。
 * 2020/11/23 - [How LinkedIn scales compatibility testing](2020/11/23): LinkIn 有 12,000 个代码仓库，这些仓库之间有复杂的依赖关系。如何确保代码更新时对上下游的兼容性是可靠的？LinkIn 在这篇文章中分享了一些实践。
 * 2020/11/24 - [On Designing and Deploying Internet-Scale Services](2020/11/24): 经典论文，讨论了设计一个后端系统时需要考虑的方方面面，例如面向故障设计、服务健康检查、底层组件零信任、版本管理、消除单点故障等等。架构师必读。
+* 2020/12/04 - [How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](2020/12/04): 文章列举了若干种不同的数据分析架构，着重对比了集中式的数据池（Data Lake）与分布式数据网格（Data Mesh）的差异，分析了之间的演进过程，提出了一些数据平台架构建设的建议。
 
 ## Network
 * 2020/10/29 - [A Trip Down the DNS Rabbit Hole: Understanding the Role of Kubernetes, Golang, libc, systemd](2020/10/29): 一次 Kubernetes 中 DNS 的故障排查过程。
@@ -43,12 +45,19 @@
 
 ## Microservice
 * 2020/10/30 - [Building Services at Airbnb, Part 4](2020/10/30): Airbnb 的微服务测试实践。
+
+## Monitoring
 * 2020/11/16 - [Building Netflix's Distributed Tracing Infrastructure](2020/11/16): Netflix 的分布式链路追踪系统实践。
+* 2020/11/27 - [Edgar: Solving Mysteries Faster with Observability](2020/11/27): Netflix 的 APM 系统 Edgar，融合 Tracing、 Logging、Events，100% 采样，良好的场景化设计。
+* 2020/11/30 - [Introducing Dispatch](2020/11/30): Netflix 的故障管理系统实践，包括通知、故障跟踪、故障复盘等环节。
 
 ## Frontend
 * 2020/10/28 - [When is no-code useful?](2020/10/28): 讨论了低代码平台存在的问题，以及作者认为低代码平台要解决的问题。文章中对于复杂度、软件工程的本质提出了一些看法。
 * 2020/11/19 - [How We Build a Design System](2020/11/19): 如何构建一套设计系统。不仅仅介绍了设计系统是什么，还介绍了怎么运营这样一套设计系统。
 * 2020/11/21 - [Micro Frontends Pattern Comparison](2020/11/21): 微前端框架是近几年比较热门的一个领域，本文讨论了几种常见的微前端框架范式。
+
+## Continuous Delivery
+* 2020/12/03 - [Introducing Pipelines to Airbnb's Deployment Proces](2020/12/3): Airbnb 的发布流水线实践。
 
 ## Career
 * 2020/10/31 - [Engineering Onboarding Processes at Medium](2020/10/31): 了解 Medium 如何帮助新工程师融入环境。
@@ -57,3 +66,5 @@
 * 2020/11/15 - [Making the most of your one-on-one with your manager or other leadership](2020/11/15): 一篇小短文，讲怎么提升 one-on-one 会议的效率。
 * 2020/11/22 - [How do you write simple explanations without sounding condescending?](2020/11/22): 把复杂的事情讲简单是个强有力的能力，这篇文章给出了一些建议。
 * 2020/11/25 - [Growth as a writer](2020/11/25): Linus Lee 作为一个非常高产的博主，提出了他认为的写作的三个阶段。
+* 2020/11/28 - [Common Performance Review Biases: How to Spot and Counter Them](2020/11/28): 在绩效反馈中，我们并不总是可以收到清晰、公正的反馈，有些反馈会带有一些偏见。作者总结出了一些常见偏见模式，并且针对主管和成员都给出了很好的改正建议。
+* 2020/12/02 - [Attention is your scarcest resource](2020/12/2): 一些关于个人时间管理的技巧。当一个人可以用 50% 的时间专注在同一个事上时，TA 就会成为一个团队中最耀眼的明星。

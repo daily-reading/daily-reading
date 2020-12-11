@@ -1,0 +1,32 @@
+# Why does it take so long to build software?
+- Essential complexity 
+  - 固有复杂性，问题本身复杂性
+- accidental complexity.
+  - come with the approach and tools
+- 举了一个解决数学问题的栗子
+  - 数学问题本身的复杂性是 Essential complexity
+  - 使用 计算器、电脑软件，纸笔会引入 accidental complexity.
+- 开源框架和库降低了 accidental complexity，屏蔽了内部复杂性
+- 如果出现问题，就会使得复杂性陡增（比如spring， 不出现问题很好用，出现问题贼难排查）
+  - 可靠的工具会降低 accidental complexity ，引文它吧复杂性封装在内部屏蔽了
+  - 不可靠的工具反倒因为自身的逻辑使得问题更加复杂了。
+- 对软件的需求越来越高，导致人们需要使用更多的 approach and tools ，带来了accidental complexity
+- changes
+  - Source control 
+    - adds accidental complexity
+    - 大家一开始都会被 git 弄的死去活来
+  - Automated Testing
+    - adds a significant amount of accidental complexity
+  - Splitting it up
+    - 这不就是微服务吗 分布式也带来了复杂性
+  - Specialization
+    - All of these extra roles allow us to build software at a larger scale, but the tools and processes required to orchestrate teams like these introduce a huge amount of accidental complexity.
+  - Infrastructure automation 
+    - 一些维护工具系统带来了复杂性
+  - Frequent deployments 
+    - CICD
+  - Multiple devices and form factors
+    - 要支持多设备
+- The volume of software within companies is exploding
+- 使用前沿技术可能会带来性能提升，但是会采更多的坑
+- 有些框架可能没跨越过一些鸿沟就死了

@@ -28,10 +28,11 @@
 * 2020/12/01 - [Immutability Changes Everything](2020/12/1): 当计算和存储系统越来越便宜，并发锁同步成了系统瓶颈时，「不可变性」成了架构设计的一个趋势。本文讲述了在分布式系统设计里，「不可变性」是如何改变存储、计算和架构的。
 * 2020/12/06 - [A Distributed Algorithm for Deadlock Detection and Resolution](2020/12/6): 一篇与死锁检测相关的论文，可以站在抽象的角度去思考，实际上描述的是分布式资源产生环状依赖关系的时候如何探测的问题，在分布式微服务的领域应该也可以运用到。
 * 2020/12/08 - [Paxos Made Simple](2020/12/8): Lamport 在 2001 年重新写的一篇 Paxos 论文，用简单的语言介绍了共识算法 Paxos。Paxos 及各种变体广泛应用于各种分布式系统中。
-* 2020/12/11 - [Modern storage is plenty fast. It is the APIs that are bad.](2020/12/11): 现代 NVMe 设备改变了 I/O 操作的行为，让随机读的成本不再昂贵。作者基于 Intel Optane 设备设计了两个新的读文件 API，并且得到了不错的性能提升。本文讨论了如何设计 API 以适应更快的新型读写设备。
 * 2020/12/12 - [Scaling Cache Infrastructure at Pinterest](2020/12/12): Pinterest 的大规模分布式 Memcached 缓存实践。
+* 2020/12/14 - [Scaling Memcache at Facebook](2020/12/14): Memcached 是一个非常简单的全内存分布式 KV 缓存系统，本文主要讨论了 Facebook 如何大规模使用分布式内存缓存来支撑其上繁重的网络请求。
 
 ## Architecture
+* 2020/10/30 - [Building Services at Airbnb, Part 4](2020/10/30): Airbnb 的微服务测试实践。
 * 2020/11/07 - [Building Airbnb's Internationalization Platform](2020/11/7): 讨论了 Airbnb 的国际化平台架构，这是一篇业务架构综述文章，对 i18n 领域的常见问题进行了介绍，以及讲解了 Airbnb 的实现方案。
 * 2020/11/08 - [Architecting for Reliable Scalability](2020/11/8): 文章讨论了在对架构进行扩展时的一些常见实践，例如模块化、水平扩展、内容缓存等等。内容中有大量的 Reference，是一篇很好的领域综述性文章。
 * 2020/11/11 - [Taming Service-Oriented Architecture Using A Data-Oriented Service Mesh](2020/11/11): Airbnb 的 Mesh 实践。不同于现在到处都在说的数据面、控制面等概念，Airbnb 一开始就以数据为中心来构建整个服务治理系统。
@@ -47,8 +48,8 @@
 * 2020/11/05 - [Keeping Netflix Reliable Using Prioritized Load Shedding](2020/11/5): 当请求变多，流量开始变得拥挤的时候，Netflix 通过给流量标记优先级实现了渐进式地流量降级。文章详细地讨论了该系统的设计、困难与实际效果。
 * 2020/11/13 - [How Facebook is bringing QUIC to billions](2020/11/13): Facebook 的 QUIC 实践，包括 QUIC 的收益、推广过程、评估体系以及一些坑。
 
-## Microservice
-* 2020/10/30 - [Building Services at Airbnb, Part 4](2020/10/30): Airbnb 的微服务测试实践。
+## Storage
+* 2020/12/11 - [Modern storage is plenty fast. It is the APIs that are bad.](2020/12/11): 现代 NVMe 设备改变了 I/O 操作的行为，让随机读的成本不再昂贵。作者基于 Intel Optane 设备设计了两个新的读文件 API，并且得到了不错的性能提升。本文讨论了如何设计 API 以适应更快的新型读写设备。
 
 ## Monitoring
 * 2020/11/16 - [Building Netflix's Distributed Tracing Infrastructure](2020/11/16): Netflix 的分布式链路追踪系统实践。

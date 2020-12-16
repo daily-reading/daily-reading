@@ -74,6 +74,7 @@
 * 2020/11/28 - [Common Performance Review Biases: How to Spot and Counter Them](2020/11/28): 在绩效反馈中，我们并不总是可以收到清晰、公正的反馈，有些反馈会带有一些偏见。作者总结出了一些常见偏见模式，并且针对主管和成员都给出了很好的改正建议。
 * 2020/12/02 - [Attention is your scarcest resource](2020/12/2): 一些关于个人时间管理的技巧。当一个人可以用 50% 的时间专注在同一个事上时，TA 就会成为一个团队中最耀眼的明星。
 * 2020/12/09 - [It's Not Just Standing Up: Patterns for Daily Standup Meetings](2020/12/9): 运转良好的每日站会给团队增加了重大价值，但有些做法会在站会上浪费所有人的时间。这篇文章介绍了常见站会的做法和收益，告诉大家怎么去调整那些浪费时间的实践。
+* 2020/12/16 - [You don't have to be busy to be prolific](2020/12/16): 关于个人时间管理的实践，作者认为通过「创造性惯性」以提升工作效率是实现高效产出的最佳实践，而不是通过堆积工作时间让自己高产。
 
 ## Others
 * 2020/12/03 - [Introducing Pipelines to Airbnb's Deployment Proces](2020/12/3): Airbnb 的发布流水线实践。

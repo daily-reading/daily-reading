@@ -30,6 +30,7 @@
 * 2020/12/08 - [Paxos Made Simple](2020/12/8): Lamport 在 2001 年重新写的一篇 Paxos 论文，用简单的语言介绍了共识算法 Paxos。Paxos 及各种变体广泛应用于各种分布式系统中。
 * 2020/12/12 - [Scaling Cache Infrastructure at Pinterest](2020/12/12): Pinterest 的大规模分布式 Memcached 缓存实践。
 * 2020/12/14 - [Scaling Memcache at Facebook](2020/12/14): Memcached 是一个非常简单的全内存分布式 KV 缓存系统，本文主要讨论了 Facebook 如何大规模使用分布式内存缓存来支撑其上繁重的网络请求。
+* 2020/12/17 - [Structured Concurrency](2020/12/17): 本文作者 Martin Sústrik 在 2016 于本文首次提出了结构并发 (Structured Concurrency) 的概念，目前结构并发这一概念在各语言社区都被广泛讨论，有成为下一代编程语言新范式的潜力。OpenJDK 也有个进行中的项目 Loom，旨在 Java 17 中引入这个新的语言特性。本文可以说是结构并发的白皮书。清晰地阐述了这个新概念的起因与设想。
 
 ## Architecture
 * 2020/10/30 - [Building Services at Airbnb, Part 4](2020/10/30): Airbnb 的微服务测试实践。

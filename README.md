@@ -81,6 +81,9 @@
 * 2020/11/23 - [How LinkedIn scales compatibility testing](2020/11/23): LinkIn 有 12,000 个代码仓库，这些仓库之间有复杂的依赖关系。如何确保代码更新时对上下游的兼容性是可靠的？LinkIn 在这篇文章中分享了一些实践。
 * 2020/12/18 - [Our evolution towards T-REX: The prehistory of experimentation infrastructure at LinkedIn](2020/12/18): T-REX 是 LinkedIn 建设了十年之久的一套 A/B 测试平台，本文以及后续的文章描述了这十年来 T-REX 的演进历史。
 
+# Operation System
+* 2020/12/20 - [Understanding Linux CPU Load - when should you be worried?](2020/12/20): CPU Load 是一个既基础又容易被误解的知识点，这篇文章举了一个车过桥的例子，生动、简单的说明了 CPU Load 和 CPU 利用率之间的区别，以及对于不同程度的 CPU Load 我们应该关心什么。
+
 ## Others
 * 2020/12/03 - [Introducing Pipelines to Airbnb's Deployment Proces](2020/12/3): Airbnb 的发布流水线实践。
 * 2020/12/05 - [GitLab.com database incident](2020/12/5): Gitlab 的在 2017 年出现了一次大规模故障，导致了网站 6 小时的数据无法恢复。故障原因是系统管理员误操作，以及多项备份措施无法生效。这是本次故障的外部报告。

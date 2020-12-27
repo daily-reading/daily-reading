@@ -41,7 +41,7 @@
 * 2020/11/17 - [Building Software Systems At Google and Lessons Learned](2020/11/17): Jeff Dean 在 2010 年的分享，分享了 Google 从 1999 年到 2010 年间面临的各种不同的挑战，以及架构的演进。
 * 2020/11/24 - [On Designing and Deploying Internet-Scale Services](2020/11/24): 经典论文，讨论了设计一个后端系统时需要考虑的方方面面，例如面向故障设计、服务健康检查、底层组件零信任、版本管理、消除单点故障等等。架构师必读。
 * 2020/12/04 - [How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](2020/12/04): 文章列举了若干种不同的数据分析架构，着重对比了集中式的数据池（Data Lake）与分布式数据网格（Data Mesh）的差异，分析了之间的演进过程，提出了一些数据平台架构建设的建议。
-* 2020/12/13 - [Choose Boring Technology](2020/12/12): 我们每天都要面对的问题是市面上可选的新技术越来越多，不管我们是否关心它们，新技术总会主动或被动的进入我们的视野中。如何看待新技术？如何在技术选型的时候平衡新技术带来的创造力和风险？本文的建议是，选择那些「无聊」的技术。
+* 2020/12/13 - [Choose Boring Technology](2020/12/13): 我们每天都要面对的问题是市面上可选的新技术越来越多，不管我们是否关心它们，新技术总会主动或被动的进入我们的视野中。如何看待新技术？如何在技术选型的时候平衡新技术带来的创造力和风险？本文的建议是，选择那些「无聊」的技术。
 * 2020/12/19 - [How Netflix Scales its API with GraphQL Federation](2020/12/19): Netflix 是一个典型的微服务架构，微服务架构中，API 聚合层的复杂度会随着业务规模的扩展呈现出指数级增长。Netflix 通过 GraphQL 来解决这个问题，本系列文章介绍了 Netflix 的实践。
 
 ## Network
@@ -63,6 +63,8 @@
 * 2020/11/21 - [Micro Frontends Pattern Comparison](2020/11/21): 微前端框架是近几年比较热门的一个领域，本文讨论了几种常见的微前端框架范式。
 * 2020/12/10 - [The End of Cross-Platform as We Know It](2020/12/10): 跨平台框架是几十年来新技术层出不穷的一个领域，例如最近几年非常热门的 React Native、Flutter 等。作者认为这些跨平台应用有着无法解决的固有缺陷，要么改进，要么死亡。
 * 2020/12/15 - [Errors and Error Handling in JavaScript](2020/12/15): 介绍了 JavaScript 错误捕捉的基本概念和实践。
+* 2020/12/23 - [How to Evaluate NPM Packages](2020/12/23): 分享了作者是如何选择开源组件的，其中通过点赞趋势、开发趋势、性能、安全等多个方向去综合评估的思路值得借鉴。
+* 2020/12/25 - [How we built the GitHub globe](2020/12/25): GitHub globe 是前一阵子 Github 做的一个 Web 可视化报表，展示了全球开源社区的生产活动。这篇文章分享 Github globe 是如何被实现出来的。
 
 ## Personal & Team Work
 * 2020/10/31 - [Engineering Onboarding Processes at Medium](2020/10/31): 了解 Medium 如何帮助新工程师融入环境。
@@ -76,10 +78,17 @@
 * 2020/12/02 - [Attention is your scarcest resource](2020/12/2): 一些关于个人时间管理的技巧。当一个人可以用 50% 的时间专注在同一个事上时，TA 就会成为一个团队中最耀眼的明星。
 * 2020/12/09 - [It's Not Just Standing Up: Patterns for Daily Standup Meetings](2020/12/9): 运转良好的每日站会给团队增加了重大价值，但有些做法会在站会上浪费所有人的时间。这篇文章介绍了常见站会的做法和收益，告诉大家怎么去调整那些浪费时间的实践。
 * 2020/12/16 - [You don't have to be busy to be prolific](2020/12/16): 关于个人时间管理的实践，作者认为通过「创造性惯性」以提升工作效率是实现高效产出的最佳实践，而不是通过堆积工作时间让自己高产。
+* 2020/12/21 - [Creating a culture of Initiative - the importance of failure](2020/12/21): 在建设团队氛围时，大家都希望团队是一个积极主动的做事方式。这篇文章围绕着「失败」这一问题，讨论了如何建设主动性文化。
+* 2020/12/22 - [To listen well, get curious](2020/12/22): 一篇关于「倾听」的的 soft skill blog。前置技能是[非暴力沟通](https://book.douban.com/subject/3533221/)，一套简单、有效的沟通技巧。
+* 2020/12/26 - [Life is Short](2020/12/26): 生命短暂，如何去使用这些宝贵的时间让自己感觉好一些？
 
 # Testing
 * 2020/11/23 - [How LinkedIn scales compatibility testing](2020/11/23): LinkIn 有 12,000 个代码仓库，这些仓库之间有复杂的依赖关系。如何确保代码更新时对上下游的兼容性是可靠的？LinkIn 在这篇文章中分享了一些实践。
 * 2020/12/18 - [Our evolution towards T-REX: The prehistory of experimentation infrastructure at LinkedIn](2020/12/18): T-REX 是 LinkedIn 建设了十年之久的一套 A/B 测试平台，本文以及后续的文章描述了这十年来 T-REX 的演进历史。
+* 2020/12/24 - [How do you test your tests?](2020/12/24): TDD 的一个困难是测试逻辑本身的恶化难以控制，这篇文章提出了一种思路，通过工程化的思路去对测试质量进行衡量，找到那些退化了的自动化测试用例进行维护。
+
+# Operation System
+* 2020/12/20 - [Understanding Linux CPU Load - when should you be worried?](2020/12/20): CPU Load 是一个既基础又容易被误解的知识点，这篇文章举了一个车过桥的例子，生动、简单的说明了 CPU Load 和 CPU 利用率之间的区别，以及对于不同程度的 CPU Load 我们应该关心什么。
 
 ## Others
 * 2020/12/03 - [Introducing Pipelines to Airbnb's Deployment Proces](2020/12/3): Airbnb 的发布流水线实践。

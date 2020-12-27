@@ -80,6 +80,7 @@
 * 2020/12/16 - [You don't have to be busy to be prolific](2020/12/16): 关于个人时间管理的实践，作者认为通过「创造性惯性」以提升工作效率是实现高效产出的最佳实践，而不是通过堆积工作时间让自己高产。
 * 2020/12/21 - [Creating a culture of Initiative - the importance of failure](2020/12/21): 在建设团队氛围时，大家都希望团队是一个积极主动的做事方式。这篇文章围绕着「失败」这一问题，讨论了如何建设主动性文化。
 * 2020/12/22 - [To listen well, get curious](2020/12/22): 一篇关于「倾听」的的 soft skill blog。前置技能是[非暴力沟通](https://book.douban.com/subject/3533221/)，一套简单、有效的沟通技巧。
+* 2020/12/26 - [Life is Short](2020/12/26): 生命短暂，如何去使用这些宝贵的时间让自己感觉好一些？
 
 # Testing
 * 2020/11/23 - [How LinkedIn scales compatibility testing](2020/11/23): LinkIn 有 12,000 个代码仓库，这些仓库之间有复杂的依赖关系。如何确保代码更新时对上下游的兼容性是可靠的？LinkIn 在这篇文章中分享了一些实践。

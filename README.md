@@ -43,6 +43,7 @@
 * 2020/12/04 - [How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](2020/12/04): 文章列举了若干种不同的数据分析架构，着重对比了集中式的数据池（Data Lake）与分布式数据网格（Data Mesh）的差异，分析了之间的演进过程，提出了一些数据平台架构建设的建议。
 * 2020/12/13 - [Choose Boring Technology](2020/12/13): 我们每天都要面对的问题是市面上可选的新技术越来越多，不管我们是否关心它们，新技术总会主动或被动的进入我们的视野中。如何看待新技术？如何在技术选型的时候平衡新技术带来的创造力和风险？本文的建议是，选择那些「无聊」的技术。
 * 2020/12/19 - [How Netflix Scales its API with GraphQL Federation](2020/12/19): Netflix 是一个典型的微服务架构，微服务架构中，API 聚合层的复杂度会随着业务规模的扩展呈现出指数级增长。Netflix 通过 GraphQL 来解决这个问题，本系列文章介绍了 Netflix 的实践。
+* 2020/12/28 - [Hints for Computer System Design](2020/12/28): 如何设计一个优秀的系统？作者从接口、实现等层次上分别讨论如何实现一个功能良好的、高性能的、高度容错的计算机系统。
 
 ## Network
 * 2020/10/29 - [A Trip Down the DNS Rabbit Hole: Understanding the Role of Kubernetes, Golang, libc, systemd](2020/10/29): 一次 Kubernetes 中 DNS 的故障排查过程。

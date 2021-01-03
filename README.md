@@ -32,6 +32,7 @@
 * 2020/12/14 - [Scaling Memcache at Facebook](2020/12/14): Memcached 是一个非常简单的全内存分布式 KV 缓存系统，本文主要讨论了 Facebook 如何大规模使用分布式内存缓存来支撑其上繁重的网络请求。
 * 2020/12/17 - [Structured Concurrency](2020/12/17): 本文作者 Martin Sústrik 在 2016 于本文首次提出了结构并发 (Structured Concurrency) 的概念，目前结构并发这一概念在各语言社区都被广泛讨论，有成为下一代编程语言新范式的潜力。OpenJDK 也有个进行中的项目 Loom，旨在 Java 17 中引入这个新的语言特性。本文可以说是结构并发的白皮书。清晰地阐述了这个新概念的起因与设想。
 * 2020/12/31 - [Production Secret Management at Airbnb](2020/12/31): 随着团队的扩大，如何安全地保存项目中要用到的各种证书、密钥、密码成了一个挑战。Airbnb 通过一个 Bagpiper 项目来保存它们。这篇文章介绍了 Bagpiper 是如何做的。
+* 2021/01/01 - [How Google Spanner Assigns Commit Timestamps - The Secret Sauce of Its Strong Consistency](2021/1/1): 介绍了 Google Spanner 作为一个全球分布式数据库，是如何使用 TrueTime API 解决全球强一致性问题的。
 
 ## Architecture
 * 2020/10/30 - [Building Services at Airbnb, Part 4](2020/10/30): Airbnb 的微服务测试实践。
@@ -99,3 +100,4 @@
 * 2020/12/03 - [Introducing Pipelines to Airbnb's Deployment Proces](2020/12/3): Airbnb 的发布流水线实践。
 * 2020/12/05 - [GitLab.com database incident](2020/12/5): Gitlab 的在 2017 年出现了一次大规模故障，导致了网站 6 小时的数据无法恢复。故障原因是系统管理员误操作，以及多项备份措施无法生效。这是本次故障的外部报告。
 * 2020/12/07 - [Why does it take so long to build software?](2020/12/7): 软件复杂度入门，科普了本质复杂度与意外复杂度的区别，以及现代软件工程面临的主要挑战。
+* 2021/01/02 - [State machines are wonderful tools](2021/1/2): 状态机是一个很强大的编程思想，作者用摩尔斯电码解析、UTF-8 解码、字数统计为例说明了如何用状态机写出清晰、易于扩展的代码。

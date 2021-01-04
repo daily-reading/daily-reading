@@ -69,6 +69,7 @@
 * 2020/12/15 - [Errors and Error Handling in JavaScript](2020/12/15): 介绍了 JavaScript 错误捕捉的基本概念和实践。
 * 2020/12/23 - [How to Evaluate NPM Packages](2020/12/23): 分享了作者是如何选择开源组件的，其中通过点赞趋势、开发趋势、性能、安全等多个方向去综合评估的思路值得借鉴。
 * 2020/12/25 - [How we built the GitHub globe](2020/12/25): GitHub globe 是前一阵子 Github 做的一个 Web 可视化报表，展示了全球开源社区的生产活动。这篇文章分享 Github globe 是如何被实现出来的。
+* 2021/01/04 - [10 Engineering Challenges Due to the Nature of Mobile Applications](2021/1/4): 面向几百万活跃用户去构建一个客户端应用程序同样需要高可用和可扩展性，这篇文章收集了工程师在构建大规模 iOS / Android 原生应用时面临的挑战。
 
 ## Personal & Team Work
 * 2020/10/31 - [Engineering Onboarding Processes at Medium](2020/10/31): 了解 Medium 如何帮助新工程师融入环境。

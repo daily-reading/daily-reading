@@ -42,10 +42,11 @@
 * 2020/11/12 - [Solid Relevance](2020/11/12): 距离 SOLID 原则提出已经过了 30 多年了，这个时间太久以至于不少人认为 SOLID 原则已经不再适用于现代软件工程。但 Uncle Bob 认为并不是这样的，软件工程的根基一直没有变化，SOLID 原则依然适用。在本文中 Bob 重新审视了 SOLID 五条原则在现代软件工程中的适用性。
 * 2020/11/17 - [Building Software Systems At Google and Lessons Learned](2020/11/17): Jeff Dean 在 2010 年的分享，分享了 Google 从 1999 年到 2010 年间面临的各种不同的挑战，以及架构的演进。
 * 2020/11/24 - [On Designing and Deploying Internet-Scale Services](2020/11/24): 经典论文，讨论了设计一个后端系统时需要考虑的方方面面，例如面向故障设计、服务健康检查、底层组件零信任、版本管理、消除单点故障等等。架构师必读。
-* 2020/12/04 - [How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](2020/12/04): 文章列举了若干种不同的数据分析架构，着重对比了集中式的数据池（Data Lake）与分布式数据网格（Data Mesh）的差异，分析了之间的演进过程，提出了一些数据平台架构建设的建议。
+* 2020/12/04 - [How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](2020/12/4): 文章列举了若干种不同的数据分析架构，着重对比了集中式的数据池（Data Lake）与分布式数据网格（Data Mesh）的差异，分析了之间的演进过程，提出了一些数据平台架构建设的建议。
 * 2020/12/13 - [Choose Boring Technology](2020/12/13): 我们每天都要面对的问题是市面上可选的新技术越来越多，不管我们是否关心它们，新技术总会主动或被动的进入我们的视野中。如何看待新技术？如何在技术选型的时候平衡新技术带来的创造力和风险？本文的建议是，选择那些「无聊」的技术。
 * 2020/12/19 - [How Netflix Scales its API with GraphQL Federation](2020/12/19): Netflix 是一个典型的微服务架构，微服务架构中，API 聚合层的复杂度会随着业务规模的扩展呈现出指数级增长。Netflix 通过 GraphQL 来解决这个问题，本系列文章介绍了 Netflix 的实践。
 * 2020/12/28 - [Hints for Computer System Design](2020/12/28): 如何设计一个优秀的系统？作者从接口、实现等层次上分别讨论如何实现一个功能良好的、高性能的、高度容错的计算机系统。
+* 2021/01/03 - [Data Mesh Principles and Logical Architecture](2021/1/3): 接 [How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](2020/12/4) 一文，讨论了数据 Mesh 的架构与最佳实践。
 
 ## Network
 * 2020/10/29 - [A Trip Down the DNS Rabbit Hole: Understanding the Role of Kubernetes, Golang, libc, systemd](2020/10/29): 一次 Kubernetes 中 DNS 的故障排查过程。
@@ -55,10 +56,12 @@
 ## Storage
 * 2020/12/11 - [Modern storage is plenty fast. It is the APIs that are bad.](2020/12/11): 现代 NVMe 设备改变了 I/O 操作的行为，让随机读的成本不再昂贵。作者基于 Intel Optane 设备设计了两个新的读文件 API，并且得到了不错的性能提升。本文讨论了如何设计 API 以适应更快的新型读写设备。
 
-## Monitoring
+## Engeerning
 * 2020/11/16 - [Building Netflix's Distributed Tracing Infrastructure](2020/11/16): Netflix 的分布式链路追踪系统实践。
 * 2020/11/27 - [Edgar: Solving Mysteries Faster with Observability](2020/11/27): Netflix 的 APM 系统 Edgar，融合 Tracing、 Logging、Events，100% 采样，良好的场景化设计。
 * 2020/11/30 - [Introducing Dispatch](2020/11/30): Netflix 的故障管理系统实践，包括通知、故障跟踪、故障复盘等环节。
+* 2021/01/06 - [StreamAlert: Real-time Data Analysis and Alerting](2021/1/6): Airbnb 的实时报警计算平台架构介绍。
+* 2021/01/07 - [Incident Response at Heroku](2021/1/7): Heroku 的的故障管理实践，包括响应、评估、协调、事后、升级等各个方面。这篇文章也 Reference 了几个 Heroku 在用的故障管理工具。
 
 ## Frontend
 * 2020/10/28 - [When is no-code useful?](2020/10/28): 讨论了低代码平台存在的问题，以及作者认为低代码平台要解决的问题。文章中对于复杂度、软件工程的本质提出了一些看法。
@@ -68,6 +71,7 @@
 * 2020/12/15 - [Errors and Error Handling in JavaScript](2020/12/15): 介绍了 JavaScript 错误捕捉的基本概念和实践。
 * 2020/12/23 - [How to Evaluate NPM Packages](2020/12/23): 分享了作者是如何选择开源组件的，其中通过点赞趋势、开发趋势、性能、安全等多个方向去综合评估的思路值得借鉴。
 * 2020/12/25 - [How we built the GitHub globe](2020/12/25): GitHub globe 是前一阵子 Github 做的一个 Web 可视化报表，展示了全球开源社区的生产活动。这篇文章分享 Github globe 是如何被实现出来的。
+* 2021/01/04 - [10 Engineering Challenges Due to the Nature of Mobile Applications](2021/1/4): 面向几百万活跃用户去构建一个客户端应用程序同样需要高可用和可扩展性，这篇文章收集了工程师在构建大规模 iOS / Android 原生应用时面临的挑战。
 
 ## Personal & Team Work
 * 2020/10/31 - [Engineering Onboarding Processes at Medium](2020/10/31): 了解 Medium 如何帮助新工程师融入环境。
@@ -87,6 +91,7 @@
 * 2020/12/27 - [Build tools around workflows, not workflows around tools](2020/12/27): 好的工具应该完全适应个人的工作流，而不是让个人的工作流来适应工具。所以作者的选择是 - 自己写一套。
 * 2020/12/29 - [Philosophy - Google Documentation Style Guide](2020/12/28): Google 的文档哲学，写出简单、可读、实用文档的技巧。
 * 2020/12/30 - [I've conducted over 600 technical interviews on interviewing.io. Here are 5 common problem areas I've see](2020/12/30): 作者分享了在过去 600 次面试过程中，总结出的候选人常见的 5 个问题。
+* 2021/01/05 - [Becoming a magician](2021/1/5): 作者认为「魔术师」是实现了知识上的层级跨越的人。在普通人的心智模型中，是很难理解「魔术师」是怎么去做的，但一旦你成为了「魔术师」，一切就变得理所应当。本文给出了一些如何成为「魔术师」的建议，其中最关键的一点是，想象力。这是一片反常规的关于自我成长的文章。
 
 ## Testing
 * 2020/11/23 - [How LinkedIn scales compatibility testing](2020/11/23): LinkIn 有 12,000 个代码仓库，这些仓库之间有复杂的依赖关系。如何确保代码更新时对上下游的兼容性是可靠的？LinkIn 在这篇文章中分享了一些实践。

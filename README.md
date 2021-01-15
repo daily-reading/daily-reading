@@ -97,6 +97,7 @@
 * 2021/01/05 - [Becoming a magician](2021/1/5): 作者认为「魔术师」是实现了知识上的层级跨越的人。在普通人的心智模型中，是很难理解「魔术师」是怎么去做的，但一旦你成为了「魔术师」，一切就变得理所应当。本文给出了一些如何成为「魔术师」的建议，其中最关键的一点是，想象力。这是一片反常规的关于自我成长的文章。
 * 2021/01/12 - [What Does Mastery Look Like in Software Engineering?](2021/1/12): 这是关于 [一个 Hacker News 上的问题](https://news.ycombinator.com/item?id=25643940) 的总结分析，讨论了「专业软件工程师」独特的职业素养。
 * 2021/01/13 - [Thoughts on the Technical Track](2021/1/13): 一篇关于技术序列与管理序列职级的小文，Dan McKinley 分享了阻碍建设技术序列的一些问题（但没有提出解决方案）。
+* 2021/01/14 - [On Becoming a Senior Technical Individual Contributor](2021/1/14): 技术闪光点、商业影响、社区接纳是成为 IC 的三个关键点。
 
 ## Testing
 * 2020/11/23 - [How LinkedIn scales compatibility testing](2020/11/23): LinkIn 有 12,000 个代码仓库，这些仓库之间有复杂的依赖关系。如何确保代码更新时对上下游的兼容性是可靠的？LinkIn 在这篇文章中分享了一些实践。

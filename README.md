@@ -33,6 +33,7 @@
 * 2020/12/17 - [Structured Concurrency](2020/12/17): 本文作者 Martin Sústrik 在 2016 于本文首次提出了结构并发 (Structured Concurrency) 的概念，目前结构并发这一概念在各语言社区都被广泛讨论，有成为下一代编程语言新范式的潜力。OpenJDK 也有个进行中的项目 Loom，旨在 Java 17 中引入这个新的语言特性。本文可以说是结构并发的白皮书。清晰地阐述了这个新概念的起因与设想。
 * 2020/12/31 - [Production Secret Management at Airbnb](2020/12/31): 随着团队的扩大，如何安全地保存项目中要用到的各种证书、密钥、密码成了一个挑战。Airbnb 通过一个 Bagpiper 项目来保存它们。这篇文章介绍了 Bagpiper 是如何做的。
 * 2021/01/01 - [How Google Spanner Assigns Commit Timestamps - The Secret Sauce of Its Strong Consistency](2021/1/1): 介绍了 Google Spanner 作为一个全球分布式数据库，是如何使用 TrueTime API 解决全球强一致性问题的。
+* 2021/01/16 - [Lease](2021/1/16): 租约是分布式系统设计的一个常见实践，它通过设置一个时间边界来协调集群中各个组件的活动。本文讨论了租约的基本实践，例如续订的过程、主从节点对于租约不同处理行为等等。
 
 ## Architecture
 * 2020/10/30 - [Building Services at Airbnb, Part 4](2020/10/30): Airbnb 的微服务测试实践。
@@ -95,6 +96,10 @@
 * 2020/12/29 - [Philosophy - Google Documentation Style Guide](2020/12/28): Google 的文档哲学，写出简单、可读、实用文档的技巧。
 * 2020/12/30 - [I've conducted over 600 technical interviews on interviewing.io. Here are 5 common problem areas I've see](2020/12/30): 作者分享了在过去 600 次面试过程中，总结出的候选人常见的 5 个问题。
 * 2021/01/05 - [Becoming a magician](2021/1/5): 作者认为「魔术师」是实现了知识上的层级跨越的人。在普通人的心智模型中，是很难理解「魔术师」是怎么去做的，但一旦你成为了「魔术师」，一切就变得理所应当。本文给出了一些如何成为「魔术师」的建议，其中最关键的一点是，想象力。这是一片反常规的关于自我成长的文章。
+* 2021/01/12 - [What Does Mastery Look Like in Software Engineering?](2021/1/12): 这是关于 [一个 Hacker News 上的问题](https://news.ycombinator.com/item?id=25643940) 的总结分析，讨论了「专业软件工程师」独特的职业素养。
+* 2021/01/13 - [Thoughts on the Technical Track](2021/1/13): 一篇关于技术序列与管理序列职级的小文，Dan McKinley 分享了阻碍建设技术序列的一些问题（但没有提出解决方案）。
+* 2021/01/14 - [On Becoming a Senior Technical Individual Contributor](2021/1/14): 技术闪光点、商业影响、社区接纳是成为 IC 的三个关键点。
+* 2021/01/15 - [Building a technical career path at Spotify](2021/1/15): Spotify 分享了一个设置职级的框架，其中讨论了为什么要做职级、建立职级的过程以及一些指导原则。
 
 ## Testing
 * 2020/11/23 - [How LinkedIn scales compatibility testing](2020/11/23): LinkIn 有 12,000 个代码仓库，这些仓库之间有复杂的依赖关系。如何确保代码更新时对上下游的兼容性是可靠的？LinkIn 在这篇文章中分享了一些实践。

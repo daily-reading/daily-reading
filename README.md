@@ -48,6 +48,7 @@
 * 2020/12/19 - [How Netflix Scales its API with GraphQL Federation](2020/12/19): Netflix 是一个典型的微服务架构，微服务架构中，API 聚合层的复杂度会随着业务规模的扩展呈现出指数级增长。Netflix 通过 GraphQL 来解决这个问题，本系列文章介绍了 Netflix 的实践。
 * 2020/12/28 - [Hints for Computer System Design](2020/12/28): 如何设计一个优秀的系统？作者从接口、实现等层次上分别讨论如何实现一个功能良好的、高性能的、高度容错的计算机系统。
 * 2021/01/03 - [Data Mesh Principles and Logical Architecture](2021/1/3): 接 [How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](2020/12/4) 一文，讨论了数据 Mesh 的架构与最佳实践。
+* 2021/01/17 - [Building DigitalOcean's API gateway](2021/1/17): 在微服务基础设施构建过程中，API 网关是一个常见的实践，但对于它的职责设计存在着多种不同的方案。DigitalOcean 分享了他们是如何通过 API 网关来给不同语言的后端服务提供类似于 Cookie 校验这样的公共基础能力的。
 
 ## Network
 * 2020/10/29 - [A Trip Down the DNS Rabbit Hole: Understanding the Role of Kubernetes, Golang, libc, systemd](2020/10/29): 一次 Kubernetes 中 DNS 的故障排查过程。

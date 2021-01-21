@@ -58,7 +58,7 @@
 ## Storage
 * 2020/12/11 - [Modern storage is plenty fast. It is the APIs that are bad.](2020/12/11): 现代 NVMe 设备改变了 I/O 操作的行为，让随机读的成本不再昂贵。作者基于 Intel Optane 设备设计了两个新的读文件 API，并且得到了不错的性能提升。本文讨论了如何设计 API 以适应更快的新型读写设备。
 
-## Engeerning
+## Engineering
 * 2020/11/16 - [Building Netflix's Distributed Tracing Infrastructure](2020/11/16): Netflix 的分布式链路追踪系统实践。
 * 2020/11/27 - [Edgar: Solving Mysteries Faster with Observability](2020/11/27): Netflix 的 APM 系统 Edgar，融合 Tracing、 Logging、Events，100% 采样，良好的场景化设计。
 * 2020/11/30 - [Introducing Dispatch](2020/11/30): Netflix 的故障管理系统实践，包括通知、故障跟踪、故障复盘等环节。
@@ -69,6 +69,7 @@
 * 2021/01/11 - [Maximizing Developer Effectiveness](2021/1/11): 文章提出了一个优化研发团队生产效率的框架, 作者通过明确反馈回路、优化反馈循环，让研发团队的效率更高。
 * 2021/01/18 - [Evidence Based Scheduling](2021/1/18): 如果列出程序员最讨厌的项目管理工具，「倒排时间表」一定榜上有名。Joel 分享了如何基于过去的事例去做更加合理的项目管理计划。
 * 2021/01/19 - [Move fast and fix things](2021/1/19): Github 详细的介绍了一次底层能力重构的过程，对于如此大规模的服务系统来说，替换 `git merge` 的实现是一件高风险操作，这篇文章展示了 Github 是如何进行测试、小流量启动的过程，非常有价值的部分是 Github 分享了在线上小流量过程中发现的 Bug 列表（包括若干个高危 Bug！）。
+* 2021/01/20 - [How We Build Code at Netflix](2021/1/20): Netflix 的代码构建实践，分享了从代码提交到最终部署过程中完成的流水线，以及使用到的各类工具。
 
 ## Frontend
 * 2020/10/28 - [When is no-code useful?](2020/10/28): 讨论了低代码平台存在的问题，以及作者认为低代码平台要解决的问题。文章中对于复杂度、软件工程的本质提出了一些看法。

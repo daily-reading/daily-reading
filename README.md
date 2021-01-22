@@ -48,6 +48,7 @@
 * 2020/12/19 - [How Netflix Scales its API with GraphQL Federation](2020/12/19): Netflix 是一个典型的微服务架构，微服务架构中，API 聚合层的复杂度会随着业务规模的扩展呈现出指数级增长。Netflix 通过 GraphQL 来解决这个问题，本系列文章介绍了 Netflix 的实践。
 * 2020/12/28 - [Hints for Computer System Design](2020/12/28): 如何设计一个优秀的系统？作者从接口、实现等层次上分别讨论如何实现一个功能良好的、高性能的、高度容错的计算机系统。
 * 2021/01/03 - [Data Mesh Principles and Logical Architecture](2021/1/3): 接 [How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](2020/12/4) 一文，讨论了数据 Mesh 的架构与最佳实践。
+* 2021/01/17 - [Building DigitalOcean's API gateway](2021/1/17): 在微服务基础设施构建过程中，API 网关是一个常见的实践，但对于它的职责设计存在着多种不同的方案。DigitalOcean 分享了他们是如何通过 API 网关来给不同语言的后端服务提供类似于 Cookie 校验这样的公共基础能力的。
 
 ## Network
 * 2020/10/29 - [A Trip Down the DNS Rabbit Hole: Understanding the Role of Kubernetes, Golang, libc, systemd](2020/10/29): 一次 Kubernetes 中 DNS 的故障排查过程。
@@ -57,7 +58,7 @@
 ## Storage
 * 2020/12/11 - [Modern storage is plenty fast. It is the APIs that are bad.](2020/12/11): 现代 NVMe 设备改变了 I/O 操作的行为，让随机读的成本不再昂贵。作者基于 Intel Optane 设备设计了两个新的读文件 API，并且得到了不错的性能提升。本文讨论了如何设计 API 以适应更快的新型读写设备。
 
-## Engeerning
+## Engineering
 * 2020/11/16 - [Building Netflix's Distributed Tracing Infrastructure](2020/11/16): Netflix 的分布式链路追踪系统实践。
 * 2020/11/27 - [Edgar: Solving Mysteries Faster with Observability](2020/11/27): Netflix 的 APM 系统 Edgar，融合 Tracing、 Logging、Events，100% 采样，良好的场景化设计。
 * 2020/11/30 - [Introducing Dispatch](2020/11/30): Netflix 的故障管理系统实践，包括通知、故障跟踪、故障复盘等环节。
@@ -66,6 +67,9 @@
 * 2021/01/08 - [Building On-Call Culture at GitHub](2021/1/8): 和很多团队一样，Github 在人数膨胀、业务扩张之后遇到了 OnCall 工程师团队不足以支持整个服务的问题。这篇文章分享了他们是如何从文化层面去适应这一变化的。
 * 2021/01/09 - [Lessons learned in incident management](2021/1/9): Dropbox 的故障管理实践，分享了 Dropbox 如何优化检测、诊断、恢复三个流程去实现 99.95% 的可用性。这篇文章比 Heroku 和 Airbnb 的分享要细致很多。
 * 2021/01/11 - [Maximizing Developer Effectiveness](2021/1/11): 文章提出了一个优化研发团队生产效率的框架, 作者通过明确反馈回路、优化反馈循环，让研发团队的效率更高。
+* 2021/01/18 - [Evidence Based Scheduling](2021/1/18): 如果列出程序员最讨厌的项目管理工具，「倒排时间表」一定榜上有名。Joel 分享了如何基于过去的事例去做更加合理的项目管理计划。
+* 2021/01/19 - [Move fast and fix things](2021/1/19): Github 详细的介绍了一次底层能力重构的过程，对于如此大规模的服务系统来说，替换 `git merge` 的实现是一件高风险操作，这篇文章展示了 Github 是如何进行测试、小流量启动的过程，非常有价值的部分是 Github 分享了在线上小流量过程中发现的 Bug 列表（包括若干个高危 Bug！）。
+* 2021/01/20 - [How We Build Code at Netflix](2021/1/20): Netflix 的代码构建实践，分享了从代码提交到最终部署过程中完成的流水线，以及使用到的各类工具。
 
 ## Frontend
 * 2020/10/28 - [When is no-code useful?](2020/10/28): 讨论了低代码平台存在的问题，以及作者认为低代码平台要解决的问题。文章中对于复杂度、软件工程的本质提出了一些看法。
@@ -117,3 +121,4 @@
 * 2020/12/05 - [GitLab.com database incident](2020/12/5): Gitlab 的在 2017 年出现了一次大规模故障，导致了网站 6 小时的数据无法恢复。故障原因是系统管理员误操作，以及多项备份措施无法生效。这是本次故障的外部报告。
 * 2020/12/07 - [Why does it take so long to build software?](2020/12/7): 软件复杂度入门，科普了本质复杂度与意外复杂度的区别，以及现代软件工程面临的主要挑战。
 * 2021/01/02 - [State machines are wonderful tools](2021/1/2): 状态机是一个很强大的编程思想，作者用摩尔斯电码解析、UTF-8 解码、字数统计为例说明了如何用状态机写出清晰、易于扩展的代码。
+* 2021/01/21 - [Build your own programming language](2021/1/21): Linus Lee 分享了关于为什么要自己发明一门编程语言的过程。在本周一，组里的同学也正好分享了类似的话题，现场演示了怎么用两三百行实现一个 Lisp 解释器。写一门语言不容易，但也没有想象的那么困难。

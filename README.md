@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/01/23 - [How to do distributed locking](2021/1/23): DDIA 书中的一部分，讲解了如何使用 Redis 实现分布式锁以及面临的挑战。
 * 2021/01/22 - [Designing Edge Gateway, Uber's API Lifecycle Management Platform](2021/1/22): Uber 的 API 网关实践。
 * 2021/01/21 - [Build your own programming language](2021/1/21): Linus Lee 分享了关于为什么要自己发明一门编程语言的过程。在本周一，组里的同学也正好分享了类似的话题，现场演示了怎么用两三百行实现一个 Lisp 解释器。写一门语言不容易，但也没有想象的那么困难。
 * 2021/01/20 - [How We Build Code at Netflix](2021/1/20): Netflix 的代码构建实践，分享了从代码提交到最终部署过程中完成的流水线，以及使用到的各类工具。

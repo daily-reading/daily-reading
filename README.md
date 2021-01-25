@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/01/24 - [Whose Code is it Anyway?](2021/1/25): Yelp 建设了一个 Code Ownership 系统来追踪每一行代码的归属，这个系统可以很好地与 PagerDuty、Jira 一起合作去减少不同团队之间沟通的复杂性。
 * 2021/01/24 - [Pairing Guidelines](2021/1/24): 一份简短的配对编程指南。
 * 2021/01/23 - [How to do distributed locking](2021/1/23): DDIA 书中的一部分，讲解了如何使用 Redis 实现分布式锁以及面临的挑战。
 * 2021/01/22 - [Designing Edge Gateway, Uber's API Lifecycle Management Platform](2021/1/22): Uber 的 API 网关实践。

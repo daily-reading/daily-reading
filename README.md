@@ -16,6 +16,7 @@
 ## Index
 
 
+* 2021/01/28 - [The Journey Towards Metric Standardization](2021/1/28): Uber 业务指标管理经验分享。
 * 2021/01/27 - [Improving how we deploy GitHub](2021/1/27): Github 研发团队在一年内翻了一倍，人员的增长暴露出来了许多工具上的不足。因此他们改造了 Github 的内部部署系统，简化了流程，实现了全自动的发布。
 * 2021/01/26 - [How machine learning powers Facebook's News Feed ranking algorithm](2021/1/26): Facebook 每天要为二十多亿人推荐相关性内容，这是一套庞大、复杂的 Ranking 系统。本文概略性的介绍了这个 Ranking 系统的整体架构与核心算法。
 * 2021/01/25 - [Whose Code is it Anyway?](2021/1/25): Yelp 建设了一个 Code Ownership 系统来追踪每一行代码的归属，这个系统可以很好地与 PagerDuty、Jira 一起合作去减少不同团队之间沟通的复杂性。

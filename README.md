@@ -15,6 +15,13 @@
 
 ## Index
 
+
+* 2021/01/29 - [Disaster Recovery for Multi-Region Kafka at Uber](2021/1/29): Uber 很可能运行了这个世界上最大规模的 Kafka 集群，这个集群也是 Uber 最核心的基础设施之一。在这样大的一个集群中，Uber 实现了跨 Region 的消息复制。本文分享了实现跨 Region 消息复制的一个关键算法。
+* 2021/01/28 - [The Journey Towards Metric Standardization](2021/1/28): Uber 业务指标管理经验分享。
+* 2021/01/27 - [Improving how we deploy GitHub](2021/1/27): Github 研发团队在一年内翻了一倍，人员的增长暴露出来了许多工具上的不足。因此他们改造了 Github 的内部部署系统，简化了流程，实现了全自动的发布。
+* 2021/01/26 - [How machine learning powers Facebook's News Feed ranking algorithm](2021/1/26): Facebook 每天要为二十多亿人推荐相关性内容，这是一套庞大、复杂的 Ranking 系统。本文概略性的介绍了这个 Ranking 系统的整体架构与核心算法。
+* 2021/01/25 - [Whose Code is it Anyway?](2021/1/25): Yelp 建设了一个 Code Ownership 系统来追踪每一行代码的归属，这个系统可以很好地与 PagerDuty、Jira 一起合作去减少不同团队之间沟通的复杂性。
+* 2021/01/24 - [Pairing Guidelines](2021/1/24): 一份简短的配对编程指南。
 * 2021/01/23 - [How to do distributed locking](2021/1/23): DDIA 书中的一部分，讲解了如何使用 Redis 实现分布式锁以及面临的挑战。
 * 2021/01/22 - [Designing Edge Gateway, Uber's API Lifecycle Management Platform](2021/1/22): Uber 的 API 网关实践。
 * 2021/01/21 - [Build your own programming language](2021/1/21): Linus Lee 分享了关于为什么要自己发明一门编程语言的过程。在本周一，组里的同学也正好分享了类似的话题，现场演示了怎么用两三百行实现一个 Lisp 解释器。写一门语言不容易，但也没有想象的那么困难。

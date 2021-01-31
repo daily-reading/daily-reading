@@ -1,0 +1,56 @@
+# [Whose Code is it Anyway?](https://engineeringblog.yelp.com/2021/01/whose-code-is-it-anyway.html)
+
+- Engineering Effectiveness
+    - investing in building tools that can
+        - communicate infrastructure changes, manage the deprecation of libraries and tools, and evangelize new tooling to other teams 基础设施的变更响应
+        - provide insights into what might make product teams more effective in shipping code quickly and safely 提供技术咨询支持
+- Measurement
+    - assign an owner to something (entity)
+    - collect metrics (on entity)
+    - derive the health score (for owner)
+- Who is an Owner?
+    - canonical engineering teams
+- Own what?
+    - certain code or infrastructure
+- Why Ownership?
+    - Better for Planning 需要了解动向、趋势，以便各个团队指定策略
+    - Better for Triaging Issues 需要知道谁来解决被分类的问题
+    - Better for Collaboration 需要快速找到对接人
+    - Avoid Duplication of Effort 为了减少团队之间的重复工作
+    - Keep things from falling through the cracks 为了确保长久的支持
+    - 五个词总结一下：
+        - dependent
+        - reported
+        - identified (core values of ‘playing well with others’)
+        - implemented
+        - maintenaned
+- What can be owned?
+    - API endpoints
+    - packages
+    - automated tests
+    - ..
+- Git repos! (all codes live here)
+    - 提供 OWNERS 文件说明，尤其是对 monorepos
+        - 用 pre-receive 或 pre-commit 钩子做校验
+        - 通过文件修改的 devs 名单自动提供 review 建议（ 现在 Gerrit 关了这个功能，因为团队变化太快，更容易给大多数人造成没必要的干扰 —— 他们已经不是这些代码的 owner 了 ）
+    - 提供 Team Members、Channels（ 群 ）、Projects (Jira、Confluence)
+- Ownership Ecosystem
+    - 因为 Owner 是如此地重要（ 就像 OnCall Rotation ），所以需要围绕 Owner 做一套生态系统（ 就像 Console 可以界面化管理 OnCall ）
+        - Indexers、Database、Service API..
+        - User Interface
+- How do we use Ownership?
+    - 主要是 track by auditing，例如 OnCall 以及关键事件变更的 ticket（ 这里是个 verb ）
+    - 任何 devs 都可以找到并发起与一个「 角色 」的沟通，这对团队的沟通效率提升很大，大家心态会更好
+- Keeping Ownership Updated
+    - 界面化系统除了 visualize (query and identify) 之外还可以 transfer
+- 思考：
+    - Onwership 非常重要！！！
+        - 目前技术项目的 Owner 还相对明显，只是缺乏管理手段，比如经常是群里口口相传
+        - 之前和主管聊过说我们的业务领域缺乏核心 Owner，导致很多跨团队的业务线推进变得极其困难，当 PM 团队人员变化或需要在很久没动的业务上做迭代时，很多业务细节甚至要靠技术人员看代码才能提供出来，这显然是不对的（ 遇到过技术实现是「 简单搞 」或者 comments 很少没有 README 的代码就懵逼了 ）
+    - Ownership 非常需要技术管理手段！！
+        - 第一就是像文中说的，也许 visualize 好做，但是现在没有 query 更没有 transfer，所以长期不好维护
+        - 第二是没有 indexer 的时候，很难用这些数据做集成，如 CR 应该做自动 review 通知、publish 应该通知下游依赖、报警应该直接触达等等，另外很多针对于 Git 的 access 应该也与 Owner 做自动联系，比如 master 分支的 Submit 权限、versioning 的正式版发版权限等
+    - Ownership 管理应该脱离 Git 做
+        - 因为就像第一条第二点说的，不是只有 Git/Code 需要 Ownership。可能之后 UI 设计物料的归属、产品 PRD 归属、Pipe 数据归属等，都需要 Ownership
+        - 因为目前极力倡导结合 Jira、Confluence 做项目管理，也应该有个独立的系统来做，不应该与 Git 绑死，毕竟 Git 大概率不可能自研而 Gerrit、GitLab 长期来讲也可能更换
+    - 对做一套 Ownership 系统很感兴趣！

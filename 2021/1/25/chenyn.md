@@ -48,7 +48,7 @@
         - 目前技术项目的 Owner 还相对明显，只是缺乏管理手段，比如经常是群里口口相传
         - 之前和主管聊过说我们的业务领域缺乏核心 Owner，导致很多跨团队的业务线推进变得极其困难，当 PM 团队人员变化或需要在很久没动的业务上做迭代时，很多业务细节甚至要靠技术人员看代码才能提供出来，这显然是不对的（ 遇到过技术实现是「 简单搞 」或者 comments 很少没有 README 的代码就懵逼了 ）
     - Ownership 非常需要技术管理手段！！
-        - 第一就是像文中说的，也许 visualize 好做，但是现在没有 query 更没有 transfer，所以长期不好维护
+        - 第一就是像文中说的，也许 visualize 好做，但是现在没有 query 更没有 transfer，所以长期不好维护
         - 第二是没有 indexer 的时候，很难用这些数据做集成，如 CR 应该做自动 review 通知、publish 应该通知下游依赖、报警应该直接触达等等，另外很多针对于 Git 的 access 应该也与 Owner 做自动联系，比如 master 分支的 Submit 权限、versioning 的正式版发版权限等
     - Ownership 管理应该脱离 Git 做
         - 因为就像第一条第二点说的，不是只有 Git/Code 需要 Ownership。可能之后 UI 设计物料的归属、产品 PRD 归属、Pipe 数据归属等，都需要 Ownership

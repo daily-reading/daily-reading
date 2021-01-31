@@ -52,5 +52,6 @@
         - 第二是没有 indexer 的时候，很难用这些数据做集成，如 CR 应该做自动 review 通知、publish 应该通知下游依赖、报警应该直接触达等等，另外很多针对于 Git 的 access 应该也与 Owner 做自动联系，比如 master 分支的 Submit 权限、versioning 的正式版发版权限等
     - Ownership 管理应该脱离 Git 做
         - 因为就像第一条第二点说的，不是只有 Git/Code 需要 Ownership。可能之后 UI 设计物料的归属、产品 PRD 归属、Pipe 数据归属等，都需要 Ownership
+            - 发散一下，感觉 Ownership Management 应该基于广义的 Project，Project 不限于 Git Project，所以现在的 Console 项目管理可能还需要抽一层（ 假如先不讨论是否重要和紧急 ）。如果独立开，包括 Owner、OnCall、动态配置等等，都可以拆开，这样可以做基于业务线的项目（ 有点类似于之前在组里设计动态配置时想到的，配置应该至少有 Git 项目、业务线、用户、设备这几个维度的划分 ）
         - 因为目前极力倡导结合 Jira、Confluence 做项目管理，也应该有个独立的系统来做，不应该与 Git 绑死，毕竟 Git 大概率不可能自研而 Gerrit、GitLab 长期来讲也可能更换
     - 对做一套 Ownership 系统很感兴趣！

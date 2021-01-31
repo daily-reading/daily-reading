@@ -57,6 +57,35 @@ the cluster is large, we need to focus on reducing the latency of fetching data 
     - Incast congestion(拥塞控制)
 
 #### Reducing Load
-- Lease
-- 
+- Lease to solve 2 problems
+  - stale sets
+  - thundering herds(惊群效应)
+    - a special key undergoes heavy read and write. a write action invalidates values, and many reads default to more costly way, and a branch of writes will press the memcache clusters.
+- lease
+  - a lease that memcached instance gives to client to permit a client to set data back to cache.
+  - 64-bit token bound to special key.
+  - once when 10 seconds per key
+  - stale value
+    - when a key is deleted, the value will be hold in recent deleted data. will live for a short time, return marked as a stale value.
+    - most applications can use stale value for a short time
+
+#### Memcache Pools
+- general-purpose caching layer requires workloads share infrastructure despite different pattern, mem footprint
+- how to solve?
+  - partion cluster's memcacheds server into seperate pools.
+  - for example, a small pool for keys accessed frequently
+
+- replication within pools
+
+#### Handling Failures
+- two problems need to be solved
+  - small number of hosts are inaccessiable due to network or some server failure
+
+
+### In a Region: Replication
+### Across Regions: Consistency
+### Single Server Improvements
+
+
+
 

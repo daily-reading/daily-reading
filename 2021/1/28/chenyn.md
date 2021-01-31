@@ -1,5 +1,46 @@
 # [The Journey Towards Metric Standardization](https://eng.uber.com/umetric/)
 
+- Data Democratization
+    - unfettered access to data -> more options and solutions
+    - individual consumption tools -> discrepancies between metrics
+- Pain Points
+    - inefficient and 
+        - unmanaged
+        - inconsistent
+        - lack of information 
+        - no systematic checking
+- Metric Standardization
+    - ONE to ONE mapping (business logic -> metric)
+    - Lifecycle:
+        - definition: author an unambiguous non-duplicated metric
+        - discovery: single source (view)
+        - planning: centralized (knowledge & execution)
+        - computation: reliable data pipelines
+        - quality: verified and monitored
+        - consumption: multifaceted access
+    - Board: definition authoring, governance, quality, access control management
+- Less is More (when design a system)
+    - Definition Model: overwhelming and obfuscating
+        - reachable: detail and filters (dimensions)
+    - Algorithmic Dedupe：duplicate in different query formats
+        - one SQL semantic: re-use
+    - Governance & Guardrails
+        - root cause of difference
+            - scope of a business logic
+            - production-ready data source
+        - tiering: Verification Committees
+            - importance -> priority
+            - delegate more responsibilities
+    - Quality & Trustworthy
+        - defined -> monitored with alerts (CI)
+            - freshness (how up-to-date)
+            - upstream consistency
+            - upstream completeness
+    - Access Control
+        - inherit and propagate
+
+---
+
 - 为什么要做 Metric Standardization
     - 数据更容易获得
     - 数据产生决策

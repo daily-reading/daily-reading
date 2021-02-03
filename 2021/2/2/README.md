@@ -1,4 +1,4 @@
-# * Twine: A Unified Cluster Management System for Shared Infrastructure
+# Twine: A Unified Cluster Management System for Shared Infrastructure
 
 * Author: Chunqiang Tang, Kenny Yu, Kaushik Veeraraghavan, Jonathan Kaldor, Scott Michelson, Thawan Kooburat, Aravind Anbudurai, Matthew Clark, Kabir Gogia, Long Cheng, Ben Christensen, Alex Gartrell, Maxim Khutornenko, Sachin Kulkarni, Marcin Pawlowski, Tuomas Pelkonen, Andre Rodrigues, Rounak Tibrewal, Vaishnavi Venkatesan, and Peter Zhang
 * Link: https://www.usenix.org/system/files/osdi20-tang.pdf

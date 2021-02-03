@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/02/02 - [Twine: A Unified Cluster Management System for Shared Infrastructure](2021/2/2): Twine 是 Facebook 的集群管理方案。和 Kubernetes 相比，Twine 的组件更加分化，对集群的管理能力也更强（单集群 17000 节点）。这篇文章介绍了 Twine 的主要设计。
 * 2021/02/01 - [What Does Cloud Native Really Mean?](2021/2/1): 云原生是什么？作者分为「云」和「原生」分别讨论了这个概念。「云」意味着各种基础设施的标准化，「原生」意味着可移植性与开放性。「云原生」实现了业务流程的自动化，增强了开发团队的自主性。
 * 2021/01/31 - [Simple Made Easy](2021/1/31): 简单 != 容易，相反的是，在软件工程中「简单」往往意味着困难，作者讨论了在软件设计中如何实现「简单」。
 * 2021/01/30 - [On Being A Principal Engineer](2021/1/30): 作者分享了成为一名首席工程师的心得，讨论了技术专家对于公司、团队的价值，以及与管理岗的区别。

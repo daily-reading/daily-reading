@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/02/05 - [Monarch: Google's Planet-Scale In-Memory Time Series Database](2021/2/5): Monarch 是 Google 用于支撑监控、报警的基础存储设施。它是一个全球扩展、全内存、多租户的分布式 TSDB。本文分享了 Monarch 的基本设计，并分享了一些经验教训。
 * 2021/02/04 - [Git clone: a data-driven study on cloning behaviors](2021/2/4): Github 这篇小报告指出不同方式的 git clone 命令在性能上有近 10x 的差距，并给出了实践建议。
 * 2021/02/03 - [M3: Uber's Open Source, Large-scale Metrics Platform for Promethe](2021/2/3): M3 是 Uber 的指标监控平台，它提供了一套 Prometheus 的远程存储后端，以支持持久化、长时间窗口的指标存储，同时还提供了高可用、可扩展性、跨 Region 查询能力。
 * 2021/02/02 - [Twine: A Unified Cluster Management System for Shared Infrastructure](2021/2/2): Twine 是 Facebook 的集群管理方案。和 Kubernetes 相比，Twine 的组件更加分化，对集群的管理能力也更强（单集群 17000 节点）。这篇文章介绍了 Twine 的主要设计。

@@ -15,7 +15,14 @@
 
 ## Index
 
-
+* 2021/02/06 - [Open Sourcing the Netflix Domain Graph Service Framework: GraphQL for Spring Boot](2021/2/6): Netflix 刚刚开源了一套 GraphQL 框架，这篇 Blog 介绍了整个框架的设计、联邦能力的实现以及对于监控的支持。
+* 2021/02/05 - [Monarch: Google's Planet-Scale In-Memory Time Series Database](2021/2/5): Monarch 是 Google 用于支撑监控、报警的基础存储设施。它是一个全球扩展、全内存、多租户的分布式 TSDB。本文分享了 Monarch 的基本设计，并分享了一些经验教训。
+* 2021/02/04 - [Git clone: a data-driven study on cloning behaviors](2021/2/4): Github 这篇小报告指出不同方式的 git clone 命令在性能上有近 10x 的差距，并给出了实践建议。
+* 2021/02/03 - [M3: Uber's Open Source, Large-scale Metrics Platform for Promethe](2021/2/3): M3 是 Uber 的指标监控平台，它提供了一套 Prometheus 的远程存储后端，以支持持久化、长时间窗口的指标存储，同时还提供了高可用、可扩展性、跨 Region 查询能力。
+* 2021/02/02 - [Twine: A Unified Cluster Management System for Shared Infrastructure](2021/2/2): Twine 是 Facebook 的集群管理方案。和 Kubernetes 相比，Twine 的组件更加分化，对集群的管理能力也更强（单集群 17000 节点）。这篇文章介绍了 Twine 的主要设计。
+* 2021/02/01 - [What Does Cloud Native Really Mean?](2021/2/1): 云原生是什么？作者分为「云」和「原生」分别讨论了这个概念。「云」意味着各种基础设施的标准化，「原生」意味着可移植性与开放性。「云原生」实现了业务流程的自动化，增强了开发团队的自主性。
+* 2021/01/31 - [Simple Made Easy](2021/1/31): 简单 != 容易，相反的是，在软件工程中「简单」往往意味着困难，作者讨论了在软件设计中如何实现「简单」。
+* 2021/01/30 - [On Being A Principal Engineer](2021/1/30): 作者分享了成为一名首席工程师的心得，讨论了技术专家对于公司、团队的价值，以及与管理岗的区别。
 * 2021/01/29 - [Disaster Recovery for Multi-Region Kafka at Uber](2021/1/29): Uber 很可能运行了这个世界上最大规模的 Kafka 集群，这个集群也是 Uber 最核心的基础设施之一。在这样大的一个集群中，Uber 实现了跨 Region 的消息复制。本文分享了实现跨 Region 消息复制的一个关键算法。
 * 2021/01/28 - [The Journey Towards Metric Standardization](2021/1/28): Uber 业务指标管理经验分享。
 * 2021/01/27 - [Improving how we deploy GitHub](2021/1/27): Github 研发团队在一年内翻了一倍，人员的增长暴露出来了许多工具上的不足。因此他们改造了 Github 的内部部署系统，简化了流程，实现了全自动的发布。

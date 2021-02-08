@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/02/08 - [Firecracker: Lightweight Virtualization for Serverless Applications](2021/2/8): 传统的 Serverless 方案会使用容器技术作为运行时环境，容器技术开销小，但在安全性和性能隔离方面要弱于虚拟机。为了解决这一问题，AWS 开发了 Firecracker，通过虚拟机来运行 Serverless 负载，并将 AWS Lambda 迁移到了 Firecracker。本文介绍了 Firecracker 的设计以及 Lambda 的迁移过程。
 * 2021/02/07 - [Software development topics I've changed my mind on after 6 years in the industry](2021/2/7): 作者是一名工作六年的程序员，这篇文章列出了他在这几年间被改变的一些想法，以及一些保持不变的旧观点。
 * 2021/02/06 - [Open Sourcing the Netflix Domain Graph Service Framework: GraphQL for Spring Boot](2021/2/6): Netflix 刚刚开源了一套 GraphQL 框架，这篇 Blog 介绍了整个框架的设计、联邦能力的实现以及对于监控的支持。
 * 2021/02/05 - [Monarch: Google's Planet-Scale In-Memory Time Series Database](2021/2/5): Monarch 是 Google 用于支撑监控、报警的基础存储设施。它是一个全球扩展、全内存、多租户的分布式 TSDB。本文分享了 Monarch 的基本设计，并分享了一些经验教训。

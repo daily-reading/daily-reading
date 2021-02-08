@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/02/07 - [Software development topics I've changed my mind on after 6 years in the industry](2021/2/7): 作者是一名工作六年的程序员，这篇文章列出了他在这几年间被改变的一些想法，以及一些保持不变的旧观点。
 * 2021/02/06 - [Open Sourcing the Netflix Domain Graph Service Framework: GraphQL for Spring Boot](2021/2/6): Netflix 刚刚开源了一套 GraphQL 框架，这篇 Blog 介绍了整个框架的设计、联邦能力的实现以及对于监控的支持。
 * 2021/02/05 - [Monarch: Google's Planet-Scale In-Memory Time Series Database](2021/2/5): Monarch 是 Google 用于支撑监控、报警的基础存储设施。它是一个全球扩展、全内存、多租户的分布式 TSDB。本文分享了 Monarch 的基本设计，并分享了一些经验教训。
 * 2021/02/04 - [Git clone: a data-driven study on cloning behaviors](2021/2/4): Github 这篇小报告指出不同方式的 git clone 命令在性能上有近 10x 的差距，并给出了实践建议。

@@ -16,7 +16,7 @@
 ## Index
 
 * 2021/02/11 - [PullRequest](2021/2/11): Pull Request 实现了 Feature Branch 和集成前 Code Review 两种 Pattern。Feature Branch 对于开发人员来说非常方便，但对于团队来说，它限制了集成的频次，导致了复杂的 CL，所以即使使用功能分支（PR 模式），团队也应该高频地进行主干集成。鉴于 PR 模式是如此的流行，以至于大部分团队并没有认真思考过是否适合，Martin Fowler 认为这个模式可能被错误使用了。
-* 2021/02/10 - [Engineering Productivity Can Be Measured - Just Not How You'd Expect](2021/2/9): 作者分享了度量工程效率的一些想法 - 去衡量那些阻碍团队提升效能的挡板。
+* 2021/02/10 - [Engineering Productivity Can Be Measured - Just Not How You'd Expect](2021/2/10): 作者分享了度量工程效率的一些想法 - 去衡量那些阻碍团队提升效能的挡板。
 * 2021/02/09 - [Minesweeper automates root cause analysis as a first-line defense against bugs](2021/2/9): Minesweeper 是 Facebook 的自动化根因分析系统，它通过分析用户的事件轨迹，进行故障模式识别。本篇介绍了 Minesweeper 中的核心算法。
 * 2021/02/08 - [Firecracker: Lightweight Virtualization for Serverless Applications](2021/2/8): 传统的 Serverless 方案会使用容器技术作为运行时环境，容器技术开销小，但在安全性和性能隔离方面要弱于虚拟机。为了解决这一问题，AWS 开发了 Firecracker，通过虚拟机来运行 Serverless 负载，并将 AWS Lambda 迁移到了 Firecracker。本文介绍了 Firecracker 的设计以及 Lambda 的迁移过程。
 * 2021/02/07 - [Software development topics I've changed my mind on after 6 years in the industry](2021/2/7): 作者是一名工作六年的程序员，这篇文章列出了他在这几年间被改变的一些想法，以及一些保持不变的旧观点。

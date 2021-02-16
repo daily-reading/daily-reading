@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/02/13 - [Hawkins: Diving into the Reasoning Behind our Design System](2021/2/13) - Hawkins 是 Netflix 的设计系统 (Design System)，它通过标准化设计元素与前端组件，使 Netflix 可以对用户提供一致的体验，同时降低了开发团队的工程负担。
 * 2021/02/12 - [eBay Launches Marko 5](2021/2/12): eBay 开源了它们使用 9 年之久的一套 UI 组件库 Marko 5，这套组件库提供了浏览器端和 NodeJS Server 端一致地渲染体验。
 * 2021/02/11 - [PullRequest](2021/2/11): Pull Request 实现了 Feature Branch 和集成前 Code Review 两种 Pattern。Feature Branch 对于开发人员来说非常方便，但对于团队来说，它限制了集成的频次，导致了复杂的 CL，所以即使使用功能分支（PR 模式），团队也应该高频地进行主干集成。鉴于 PR 模式是如此的流行，以至于大部分团队并没有认真思考过是否适合，Martin Fowler 认为这个模式可能被错误使用了。
 * 2021/02/10 - [Engineering Productivity Can Be Measured - Just Not How You'd Expect](2021/2/10): 作者分享了度量工程效率的一些想法 - 去衡量那些阻碍团队提升效能的挡板。

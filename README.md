@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/02/16 - [Patterns for Managing Source Code Branches](2021/2/16): 讨论分支模型的集大成之作，详细的解释了各种分支模型的优缺点。
 * 2021/02/15 - [A Deep Dive into Architecting a Kubernetes Infrastructure](2021/2/15): 本文简单介绍了建设一个灵活、可扩展、高可用的，以 Kubernetes 为核心的云原生基础设施所需要考虑的方方面面，例如接入层负载均衡、监控、日志、存储、CI/CD 等等。
 * 2021/02/14 - [Edge Authentication and Token-Agnostic Identity Propagation](2021/2/14): 在业务规模变大之后，Netflix 将用户身份鉴权的逻辑移动到了它们的接入层网关之中。本篇文章详细分享了边缘身份验证服务 (EAS) 是如何与接入层网关 (Zuul) 一起工作的。
 * 2021/02/13 - [Hawkins: Diving into the Reasoning Behind our Design System](2021/2/13) - Hawkins 是 Netflix 的设计系统 (Design System)，它通过标准化设计元素与前端组件，使 Netflix 可以对用户提供一致的体验，同时降低了开发团队的工程负担。

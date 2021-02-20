@@ -15,7 +15,31 @@
 
 ## Index
 
-* 2021/01/24 - [Whose Code is it Anyway?](2021/1/25): Yelp 建设了一个 Code Ownership 系统来追踪每一行代码的归属，这个系统可以很好地与 PagerDuty、Jira 一起合作去减少不同团队之间沟通的复杂性。
+* 2021/02/20 - [Engineering dependability and fault tolerance in a distributed system](2021/2/20): 面向失败做系统设计是架构设计中的一个重要方法，本文详细讨论了分布式系统设计中可靠性与容错的概念，以及实现上的细节。例如，对于无状态服务集群，我们如何评估可靠性。
+* 2021/02/19 - [Fast and Reliable Schema-Agnostic Log Analytics Platform](2021/2/19): Uber 新的日志平台，使用 ClickHouse 作为存储，提供了比 ELK 更好的性能、扩展性。
+* 2021/02/16 - [Patterns for Managing Source Code Branches](2021/2/16): 讨论分支模型的集大成之作，详细的解释了各种分支模型的优缺点。
+* 2021/02/15 - [A Deep Dive into Architecting a Kubernetes Infrastructure](2021/2/15): 本文简单介绍了建设一个灵活、可扩展、高可用的，以 Kubernetes 为核心的云原生基础设施所需要考虑的方方面面，例如接入层负载均衡、监控、日志、存储、CI/CD 等等。
+* 2021/02/14 - [Edge Authentication and Token-Agnostic Identity Propagation](2021/2/14): 在业务规模变大之后，Netflix 将用户身份鉴权的逻辑移动到了它们的接入层网关之中。本篇文章详细分享了边缘身份验证服务 (EAS) 是如何与接入层网关 (Zuul) 一起工作的。
+* 2021/02/13 - [Hawkins: Diving into the Reasoning Behind our Design System](2021/2/13) - Hawkins 是 Netflix 的设计系统 (Design System)，它通过标准化设计元素与前端组件，使 Netflix 可以对用户提供一致的体验，同时降低了开发团队的工程负担。
+* 2021/02/12 - [eBay Launches Marko 5](2021/2/12): eBay 开源了它们使用 9 年之久的一套 UI 组件库 Marko 5，这套组件库提供了浏览器端和 NodeJS Server 端一致地渲染体验。
+* 2021/02/11 - [PullRequest](2021/2/11): Pull Request 实现了 Feature Branch 和集成前 Code Review 两种 Pattern。Feature Branch 对于开发人员来说非常方便，但对于团队来说，它限制了集成的频次，导致了复杂的 CL，所以即使使用功能分支（PR 模式），团队也应该高频地进行主干集成。鉴于 PR 模式是如此的流行，以至于大部分团队并没有认真思考过是否适合，Martin Fowler 认为这个模式可能被错误使用了。
+* 2021/02/10 - [Engineering Productivity Can Be Measured - Just Not How You'd Expect](2021/2/10): 作者分享了度量工程效率的一些想法 - 去衡量那些阻碍团队提升效能的挡板。
+* 2021/02/09 - [Minesweeper automates root cause analysis as a first-line defense against bugs](2021/2/9): Minesweeper 是 Facebook 的自动化根因分析系统，它通过分析用户的事件轨迹，进行故障模式识别。本篇介绍了 Minesweeper 中的核心算法。
+* 2021/02/08 - [Firecracker: Lightweight Virtualization for Serverless Applications](2021/2/8): 传统的 Serverless 方案会使用容器技术作为运行时环境，容器技术开销小，但在安全性和性能隔离方面要弱于虚拟机。为了解决这一问题，AWS 开发了 Firecracker，通过虚拟机来运行 Serverless 负载，并将 AWS Lambda 迁移到了 Firecracker。本文介绍了 Firecracker 的设计以及 Lambda 的迁移过程。
+* 2021/02/07 - [Software development topics I've changed my mind on after 6 years in the industry](2021/2/7): 作者是一名工作六年的程序员，这篇文章列出了他在这几年间被改变的一些想法，以及一些保持不变的旧观点。
+* 2021/02/06 - [Open Sourcing the Netflix Domain Graph Service Framework: GraphQL for Spring Boot](2021/2/6): Netflix 刚刚开源了一套 GraphQL 框架，这篇 Blog 介绍了整个框架的设计、联邦能力的实现以及对于监控的支持。
+* 2021/02/05 - [Monarch: Google's Planet-Scale In-Memory Time Series Database](2021/2/5): Monarch 是 Google 用于支撑监控、报警的基础存储设施。它是一个全球扩展、全内存、多租户的分布式 TSDB。本文分享了 Monarch 的基本设计，并分享了一些经验教训。
+* 2021/02/04 - [Git clone: a data-driven study on cloning behaviors](2021/2/4): Github 这篇小报告指出不同方式的 git clone 命令在性能上有近 10x 的差距，并给出了实践建议。
+* 2021/02/03 - [M3: Uber's Open Source, Large-scale Metrics Platform for Promethe](2021/2/3): M3 是 Uber 的指标监控平台，它提供了一套 Prometheus 的远程存储后端，以支持持久化、长时间窗口的指标存储，同时还提供了高可用、可扩展性、跨 Region 查询能力。
+* 2021/02/02 - [Twine: A Unified Cluster Management System for Shared Infrastructure](2021/2/2): Twine 是 Facebook 的集群管理方案。和 Kubernetes 相比，Twine 的组件更加分化，对集群的管理能力也更强（单集群 17000 节点）。这篇文章介绍了 Twine 的主要设计。
+* 2021/02/01 - [What Does Cloud Native Really Mean?](2021/2/1): 云原生是什么？作者分为「云」和「原生」分别讨论了这个概念。「云」意味着各种基础设施的标准化，「原生」意味着可移植性与开放性。「云原生」实现了业务流程的自动化，增强了开发团队的自主性。
+* 2021/01/31 - [Simple Made Easy](2021/1/31): 简单 != 容易，相反的是，在软件工程中「简单」往往意味着困难，作者讨论了在软件设计中如何实现「简单」。
+* 2021/01/30 - [On Being A Principal Engineer](2021/1/30): 作者分享了成为一名首席工程师的心得，讨论了技术专家对于公司、团队的价值，以及与管理岗的区别。
+* 2021/01/29 - [Disaster Recovery for Multi-Region Kafka at Uber](2021/1/29): Uber 很可能运行了这个世界上最大规模的 Kafka 集群，这个集群也是 Uber 最核心的基础设施之一。在这样大的一个集群中，Uber 实现了跨 Region 的消息复制。本文分享了实现跨 Region 消息复制的一个关键算法。
+* 2021/01/28 - [The Journey Towards Metric Standardization](2021/1/28): Uber 业务指标管理经验分享。
+* 2021/01/27 - [Improving how we deploy GitHub](2021/1/27): Github 研发团队在一年内翻了一倍，人员的增长暴露出来了许多工具上的不足。因此他们改造了 Github 的内部部署系统，简化了流程，实现了全自动的发布。
+* 2021/01/26 - [How machine learning powers Facebook's News Feed ranking algorithm](2021/1/26): Facebook 每天要为二十多亿人推荐相关性内容，这是一套庞大、复杂的 Ranking 系统。本文概略性的介绍了这个 Ranking 系统的整体架构与核心算法。
+* 2021/01/25 - [Whose Code is it Anyway?](2021/1/25): Yelp 建设了一个 Code Ownership 系统来追踪每一行代码的归属，这个系统可以很好地与 PagerDuty、Jira 一起合作去减少不同团队之间沟通的复杂性。
 * 2021/01/24 - [Pairing Guidelines](2021/1/24): 一份简短的配对编程指南。
 * 2021/01/23 - [How to do distributed locking](2021/1/23): DDIA 书中的一部分，讲解了如何使用 Redis 实现分布式锁以及面临的挑战。
 * 2021/01/22 - [Designing Edge Gateway, Uber's API Lifecycle Management Platform](2021/1/22): Uber 的 API 网关实践。

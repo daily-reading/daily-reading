@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/02/20 - [Engineering dependability and fault tolerance in a distributed system](2021/2/20): 面向失败做系统设计是架构设计中的一个重要方法，本文详细讨论了分布式系统设计中可靠性与容错的概念，以及实现上的细节。例如，对于无状态服务集群，我们如何评估可靠性。
 * 2021/02/19 - [Fast and Reliable Schema-Agnostic Log Analytics Platform](2021/2/19): Uber 新的日志平台，使用 ClickHouse 作为存储，提供了比 ELK 更好的性能、扩展性。
 * 2021/02/16 - [Patterns for Managing Source Code Branches](2021/2/16): 讨论分支模型的集大成之作，详细的解释了各种分支模型的优缺点。
 * 2021/02/15 - [A Deep Dive into Architecting a Kubernetes Infrastructure](2021/2/15): 本文简单介绍了建设一个灵活、可扩展、高可用的，以 Kubernetes 为核心的云原生基础设施所需要考虑的方方面面，例如接入层负载均衡、监控、日志、存储、CI/CD 等等。

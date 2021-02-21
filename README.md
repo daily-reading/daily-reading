@@ -15,6 +15,14 @@
 
 ## Index
 
+* 2021/02/20 - [Engineering dependability and fault tolerance in a distributed system](2021/2/20): 面向失败做系统设计是架构设计中的一个重要方法，本文详细讨论了分布式系统设计中可靠性与容错的概念，以及实现上的细节。例如，对于无状态服务集群，我们如何评估可靠性。
+* 2021/02/19 - [Fast and Reliable Schema-Agnostic Log Analytics Platform](2021/2/19): Uber 新的日志平台，使用 ClickHouse 作为存储，提供了比 ELK 更好的性能、扩展性。
+* 2021/02/17 - [Why Is Naming Things Hard?](2021/2/17): Naming 永远是一个有趣的话题，口语表达永远是不精准的，但我们希望在代码表达时尽可能去精准，这导致命名一个变量、函数时非常困难。
+* 2021/02/16 - [Patterns for Managing Source Code Branches](2021/2/16): 讨论分支模型的集大成之作，详细的解释了各种分支模型的优缺点。
+* 2021/02/15 - [A Deep Dive into Architecting a Kubernetes Infrastructure](2021/2/15): 本文简单介绍了建设一个灵活、可扩展、高可用的，以 Kubernetes 为核心的云原生基础设施所需要考虑的方方面面，例如接入层负载均衡、监控、日志、存储、CI/CD 等等。
+* 2021/02/14 - [Edge Authentication and Token-Agnostic Identity Propagation](2021/2/14): 在业务规模变大之后，Netflix 将用户身份鉴权的逻辑移动到了它们的接入层网关之中。本篇文章详细分享了边缘身份验证服务 (EAS) 是如何与接入层网关 (Zuul) 一起工作的。
+* 2021/02/13 - [Hawkins: Diving into the Reasoning Behind our Design System](2021/2/13) - Hawkins 是 Netflix 的设计系统 (Design System)，它通过标准化设计元素与前端组件，使 Netflix 可以对用户提供一致的体验，同时降低了开发团队的工程负担。
+* 2021/02/12 - [eBay Launches Marko 5](2021/2/12): eBay 开源了它们使用 9 年之久的一套 UI 组件库 Marko 5，这套组件库提供了浏览器端和 NodeJS Server 端一致地渲染体验。
 * 2021/02/11 - [PullRequest](2021/2/11): Pull Request 实现了 Feature Branch 和集成前 Code Review 两种 Pattern。Feature Branch 对于开发人员来说非常方便，但对于团队来说，它限制了集成的频次，导致了复杂的 CL，所以即使使用功能分支（PR 模式），团队也应该高频地进行主干集成。鉴于 PR 模式是如此的流行，以至于大部分团队并没有认真思考过是否适合，Martin Fowler 认为这个模式可能被错误使用了。
 * 2021/02/10 - [Engineering Productivity Can Be Measured - Just Not How You'd Expect](2021/2/10): 作者分享了度量工程效率的一些想法 - 去衡量那些阻碍团队提升效能的挡板。
 * 2021/02/09 - [Minesweeper automates root cause analysis as a first-line defense against bugs](2021/2/9): Minesweeper 是 Facebook 的自动化根因分析系统，它通过分析用户的事件轨迹，进行故障模式识别。本篇介绍了 Minesweeper 中的核心算法。

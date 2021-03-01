@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/01 - [We Burnt $72K testing Firebase + Cloud Run and almost went Bankrupt](2021/3/1): 一次错误的上云决策，在 2 小时内给一个不到 10 人的创业小团队带来了 7 万美金的云服务账单。
 * 2021/02/23 - [FOQS: Scaling a distributed priority queue](2021/2/23): Facebook 的分布式优先队列系统。
 * 2021/02/22 - [5 Things Low-Code Is Missing](2021/2/22): Low Code 平台是当下热度很高的一个领域，本文介绍了在 Low Code 生态上缺失的五个部分，分别是开发环境、编码的易用性、依赖关系管理、版本控制以及供应商灵活性。
 * 2021/02/21 - [How we designed our Continuous Integration System to be more than 50% Faster](2021/2/21): 本文介绍了 Pintrest 是如何围绕 Bazel 去搭建一个快速的构建系统的。

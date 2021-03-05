@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/04 - [Visualizing Data Timeliness at Airbnb](2021/3/4): 统计数据计算是一个非常复杂的工程，存在着很多不稳定因素，这些因素可能会导致某个数据项计算延迟，或者是计算失败。Airbnb 将数据计算的过程进行了可视化，让每个人都可以轻松发现数据是否有延迟，以及快速分析出数据延迟的原因。
 * 2021/03/03 - [Fighting spam with Guardian, a real-time analytics and rules engine](2021/3/3): 作为一个 UGC 网站，Pintrest 从诞生之初就需要和 Spam 斗智斗勇。本篇文章分享了 Pintrest 如何通过规则引擎实现 Anti-Spam，并且分享了规则引擎的进化过程，最终介绍了 Guardian 系统的整体架构。
 * 2021/03/02 - [Beyond REST](2021/3/2): Netflix 是一个成功落地应用了 GraphQL 的技术团队，这篇文章分享了他们是如何使用 GraphQL 快速开发微服务 API 的。
 * 2021/03/01 - [We Burnt $72K testing Firebase + Cloud Run and almost went Bankrupt](2021/3/1): 一次错误的上云决策，在 2 小时内给一个不到 10 人的创业小团队带来了 7 万美金的云服务账单。

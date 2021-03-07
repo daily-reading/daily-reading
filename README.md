@@ -15,6 +15,14 @@
 
 ## Index
 
+* 2021/03/05 - [Things your manager might not know](2021/3/5): 作者对于「向上管理」的一些思考，介绍了管理者所不能了解到的事情，以及如何通过向上沟通让自己、团队变得更好。
+* 2021/03/04 - [Visualizing Data Timeliness at Airbnb](2021/3/4): 统计数据计算是一个非常复杂的工程，存在着很多不稳定因素，这些因素可能会导致某个数据项计算延迟，或者是计算失败。Airbnb 将数据计算的过程进行了可视化，让每个人都可以轻松发现数据是否有延迟，以及快速分析出数据延迟的原因。
+* 2021/03/03 - [Fighting spam with Guardian, a real-time analytics and rules engine](2021/3/3): 作为一个 UGC 网站，Pintrest 从诞生之初就需要和 Spam 斗智斗勇。本篇文章分享了 Pintrest 如何通过规则引擎实现 Anti-Spam，并且分享了规则引擎的进化过程，最终介绍了 Guardian 系统的整体架构。
+* 2021/03/02 - [Beyond REST](2021/3/2): Netflix 是一个成功落地应用了 GraphQL 的技术团队，这篇文章分享了他们是如何使用 GraphQL 快速开发微服务 API 的。
+* 2021/03/01 - [We Burnt $72K testing Firebase + Cloud Run and almost went Bankrupt](2021/3/1): 一次错误的上云决策，在 2 小时内给一个不到 10 人的创业小团队带来了 7 万美金的云服务账单。
+* 2021/02/23 - [FOQS: Scaling a distributed priority queue](2021/2/23): Facebook 的分布式优先队列系统。
+* 2021/02/22 - [5 Things Low-Code Is Missing](2021/2/22): Low Code 平台是当下热度很高的一个领域，本文介绍了在 Low Code 生态上缺失的五个部分，分别是开发环境、编码的易用性、依赖关系管理、版本控制以及供应商灵活性。
+* 2021/02/21 - [How we designed our Continuous Integration System to be more than 50% Faster](2021/2/21): 本文介绍了 Pintrest 是如何围绕 Bazel 去搭建一个快速的构建系统的。
 * 2021/02/20 - [Engineering dependability and fault tolerance in a distributed system](2021/2/20): 面向失败做系统设计是架构设计中的一个重要方法，本文详细讨论了分布式系统设计中可靠性与容错的概念，以及实现上的细节。例如，对于无状态服务集群，我们如何评估可靠性。
 * 2021/02/19 - [Fast and Reliable Schema-Agnostic Log Analytics Platform](2021/2/19): Uber 新的日志平台，使用 ClickHouse 作为存储，提供了比 ELK 更好的性能、扩展性。
 * 2021/02/17 - [Why Is Naming Things Hard?](2021/2/17): Naming 永远是一个有趣的话题，口语表达永远是不精准的，但我们希望在代码表达时尽可能去精准，这导致命名一个变量、函数时非常困难。

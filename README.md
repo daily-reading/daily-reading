@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/07 - [Preparing for the Systems Design and Coding Interview](2021/3/7): 作者分享了准备技术面试所需要了解的书籍、知识、课程和其他相关资源。
 * 2021/03/06 - [if-else-switch](2021/3/6): 如果要将一个 int 映射成一个 string enum，用 if/else 还是用 switch 更好呢？抑或是使用工厂方法？本文分享了几种不同写法对于抽象和依赖的影响。
 * 2021/03/05 - [Things your manager might not know](2021/3/5): 作者对于「向上管理」的一些思考，介绍了管理者所不能了解到的事情，以及如何通过向上沟通让自己、团队变得更好。
 * 2021/03/04 - [Visualizing Data Timeliness at Airbnb](2021/3/4): 统计数据计算是一个非常复杂的工程，存在着很多不稳定因素，这些因素可能会导致某个数据项计算延迟，或者是计算失败。Airbnb 将数据计算的过程进行了可视化，让每个人都可以轻松发现数据是否有延迟，以及快速分析出数据延迟的原因。

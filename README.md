@@ -15,6 +15,12 @@
 
 ## Index
 
+* 2021/03/11 - [Modules, monoliths, and microservices](2021/3/11): 又一篇关于模块化、隔离、拆分、边界的讨论，我们可能不需要许多微服务来实现业务需求。文章也提出了一些划分服务边界的参考标准。
+* 2021/03/10 - [An unlikely database migration](2021/3/10): 作者分享了在一家创业公司，从单文件存 JSON 到数据库的整个过程。中间分享了一些对于不同类型数据库的看法，包括 MySQL、PostgreSQL、SqlLite、Perkeep、CockroachDB 等等，最终他们选择了 etcd。
+* 2021/03/09 - [Monorepos: Please don't!](2021/3/9): 作者认为 monorepo 主张的 VSC 对团队的收益率很低，列举了几个传统上认为 monorepo 具有的优势进行了反驳，同时给出了一些 monorepo 独有的缺陷。另外，作者还认为代码的组织是一家公司工程文化和领导才能的直接结果体现，与使用 monorepo 与 polyrepo 无关。
+* 2021/03/08 - [Work, play, and motivation](2021/3/8): 作者认为工作和娱乐的一个主要区别是，娱乐有着更紧密的及时反馈，而工作往往是到最后才会收获。那么我们可以做的一个事情是，改变我们工作的计划，让反馈变得更加及时，从而带来更强的动力。
+* 2021/03/07 - [Preparing for the Systems Design and Coding Interview](2021/3/7): 作者分享了准备技术面试所需要了解的书籍、知识、课程和其他相关资源。
+* 2021/03/06 - [if-else-switch](2021/3/6): 如果要将一个 int 映射成一个 string enum，用 if/else 还是用 switch 更好呢？抑或是使用工厂方法？本文分享了几种不同写法对于抽象和依赖的影响。
 * 2021/03/05 - [Things your manager might not know](2021/3/5): 作者对于「向上管理」的一些思考，介绍了管理者所不能了解到的事情，以及如何通过向上沟通让自己、团队变得更好。
 * 2021/03/04 - [Visualizing Data Timeliness at Airbnb](2021/3/4): 统计数据计算是一个非常复杂的工程，存在着很多不稳定因素，这些因素可能会导致某个数据项计算延迟，或者是计算失败。Airbnb 将数据计算的过程进行了可视化，让每个人都可以轻松发现数据是否有延迟，以及快速分析出数据延迟的原因。
 * 2021/03/03 - [Fighting spam with Guardian, a real-time analytics and rules engine](2021/3/3): 作为一个 UGC 网站，Pintrest 从诞生之初就需要和 Spam 斗智斗勇。本篇文章分享了 Pintrest 如何通过规则引擎实现 Anti-Spam，并且分享了规则引擎的进化过程，最终介绍了 Guardian 系统的整体架构。

@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/14 - [How Individuals Advance at Buffer, Without Becoming Managers](2021/3/14): Buffer 在这篇文章中分享了他们团队中 Manager 与 IC 两条独立的职级发展路径，对于思考个人的职业生涯很有帮助。
 * 2021/03/13 - [The Story of Us: Full Series](:2021/3/13): 作者对于「什么是社会」的一系列思考和阐述。写得非常清晰，用了大量的抽象、比喻来讲清楚一些问题: 什么是一个社会、社会形态发生过什么、正在发生什么。
 * 2021/03/12 - [Web Performance for Product Managers](2021/3/12): 面向产品经理去解释页面为什么会这么慢，以及如何提升性能。文章详细地解释了「百分位数」的概念，所以也很适合作为新工程师的科普。
 * 2021/03/11 - [Modules, monoliths, and microservices](2021/3/11): 又一篇关于模块化、隔离、拆分、边界的讨论，我们可能不需要许多微服务来实现业务需求。文章也提出了一些划分服务边界的参考标准。

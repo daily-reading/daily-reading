@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/12 - [Web Performance for Product Managers](2021/3/12): 面向产品经理去解释页面为什么会这么慢，以及如何提升性能。文章详细地解释了「百分位数」的概念，所以也很适合作为新工程师的科普。
 * 2021/03/11 - [Modules, monoliths, and microservices](2021/3/11): 又一篇关于模块化、隔离、拆分、边界的讨论，我们可能不需要许多微服务来实现业务需求。文章也提出了一些划分服务边界的参考标准。
 * 2021/03/10 - [An unlikely database migration](2021/3/10): 作者分享了在一家创业公司，从单文件存 JSON 到数据库的整个过程。中间分享了一些对于不同类型数据库的看法，包括 MySQL、PostgreSQL、SqlLite、Perkeep、CockroachDB 等等，最终他们选择了 etcd。
 * 2021/03/09 - [Monorepos: Please don't!](2021/3/9): 作者认为 monorepo 主张的 VSC 对团队的收益率很低，列举了几个传统上认为 monorepo 具有的优势进行了反驳，同时给出了一些 monorepo 独有的缺陷。另外，作者还认为代码的组织是一家公司工程文化和领导才能的直接结果体现，与使用 monorepo 与 polyrepo 无关。

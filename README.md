@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/16 - [3 Ideas How to Communicate Your Architecture](2021/3/16): 作为架构师，沟通、协调是和架构设计同等重要的工作事项。本文给出了一些沟通协调的建议和技巧，包括时间分配、形式、内容等。
 * 2021/03/15 - [How I've Managed to Grow My Career Without Managing People](2021/3/15): IC 与 Manager 的职责上有一个巨大的差异: Manager 总是要为团队的结果负责。这导致不少人其实并没那么 Enjoy Manager 的职业生涯发展道路。作者分享了另一条职业路径，不管人，成为一名优秀的独立贡献者。此外，作者并不是一名工程师，而是一名市场营销人员。
 * 2021/03/14 - [How Individuals Advance at Buffer, Without Becoming Managers](2021/3/14): Buffer 在这篇文章中分享了他们团队中 Manager 与 IC 两条独立的职级发展路径，对于思考个人的职业生涯很有帮助。
 * 2021/03/13 - [The Story of Us: Full Series](:2021/3/13): 作者对于「什么是社会」的一系列思考和阐述。写得非常清晰，用了大量的抽象、比喻来讲清楚一些问题: 什么是一个社会、社会形态发生过什么、正在发生什么。

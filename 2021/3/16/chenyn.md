@@ -1,5 +1,7 @@
 # [3 Ideas How to Communicate Your Architecture](http://beza1e1.tuxen.de/communicate_architecture.html)
 
+> 翻译：[架构师成功沟通的三个关键](https://mp.weixin.qq.com/s/StcEpbZ1uSzyqXqRGTYkRQ)
+
 - stakeholders = stake-holders🌝
 - neglect proper communication because:
     - "important" is very often steamrolled by "urgent"

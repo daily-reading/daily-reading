@@ -15,6 +15,13 @@
 
 ## Index
 
+* 2021/03/18 - [Pinterest Flink Deployment Framework](2021/3/18): Apache  Flink 是一个分布式处理引擎，也是一个数据计算框架。在一个大型团队中落地 Flink 需要解决标准化构建、部署、任务管理等一系列工程问题。本文分享了 Pintrest 工程团队的实践。
+* 2021/03/17 - [Uber's Journey Toward Better Data Culture From First Principles](2021/3/17): 想象一下你成为了一个公司的大数据团队负责人 - 在开始设计技术方案前，不妨先想一想组织形式、人、流程的问题。Uber 分享了建设一个数据驱动型团队的经验。
+* 2021/03/16 - [3 Ideas How to Communicate Your Architecture](2021/3/16): 作为架构师，沟通、协调是和架构设计同等重要的工作事项。本文给出了一些沟通协调的建议和技巧，包括时间分配、形式、内容等。
+* 2021/03/15 - [How I've Managed to Grow My Career Without Managing People](2021/3/15): IC 与 Manager 的职责上有一个巨大的差异: Manager 总是要为团队的结果负责。这导致不少人其实并没那么 Enjoy Manager 的职业生涯发展道路。作者分享了另一条职业路径，不管人，成为一名优秀的独立贡献者。此外，作者并不是一名工程师，而是一名市场营销人员。
+* 2021/03/14 - [How Individuals Advance at Buffer, Without Becoming Managers](2021/3/14): Buffer 在这篇文章中分享了他们团队中 Manager 与 IC 两条独立的职级发展路径，对于思考个人的职业生涯很有帮助。
+* 2021/03/13 - [The Story of Us: Full Series](:2021/3/13): 作者对于「什么是社会」的一系列思考和阐述。写得非常清晰，用了大量的抽象、比喻来讲清楚一些问题: 什么是一个社会、社会形态发生过什么、正在发生什么。
+* 2021/03/12 - [Web Performance for Product Managers](2021/3/12): 面向产品经理去解释页面为什么会这么慢，以及如何提升性能。文章详细地解释了「百分位数」的概念，所以也很适合作为新工程师的科普。
 * 2021/03/11 - [Modules, monoliths, and microservices](2021/3/11): 又一篇关于模块化、隔离、拆分、边界的讨论，我们可能不需要许多微服务来实现业务需求。文章也提出了一些划分服务边界的参考标准。
 * 2021/03/10 - [An unlikely database migration](2021/3/10): 作者分享了在一家创业公司，从单文件存 JSON 到数据库的整个过程。中间分享了一些对于不同类型数据库的看法，包括 MySQL、PostgreSQL、SqlLite、Perkeep、CockroachDB 等等，最终他们选择了 etcd。
 * 2021/03/09 - [Monorepos: Please don't!](2021/3/9): 作者认为 monorepo 主张的 VSC 对团队的收益率很低，列举了几个传统上认为 monorepo 具有的优势进行了反驳，同时给出了一些 monorepo 独有的缺陷。另外，作者还认为代码的组织是一家公司工程文化和领导才能的直接结果体现，与使用 monorepo 与 polyrepo 无关。

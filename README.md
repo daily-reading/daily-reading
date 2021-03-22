@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/19 - [The Uber Engineering Tech Stack](2021/3/19): 完整、系统地介绍了 Uber 的整个技术栈，从底层存储、网络一直到客户端、前端的框架、语言。
 * 2021/03/18 - [Pinterest Flink Deployment Framework](2021/3/18): Apache  Flink 是一个分布式处理引擎，也是一个数据计算框架。在一个大型团队中落地 Flink 需要解决标准化构建、部署、任务管理等一系列工程问题。本文分享了 Pintrest 工程团队的实践。
 * 2021/03/17 - [Uber's Journey Toward Better Data Culture From First Principles](2021/3/17): 想象一下你成为了一个公司的大数据团队负责人 - 在开始设计技术方案前，不妨先想一想组织形式、人、流程的问题。Uber 分享了建设一个数据驱动型团队的经验。
 * 2021/03/16 - [3 Ideas How to Communicate Your Architecture](2021/3/16): 作为架构师，沟通、协调是和架构设计同等重要的工作事项。本文给出了一些沟通协调的建议和技巧，包括时间分配、形式、内容等。

@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/21 - [Conservation of complexity](2021/3/21): 又一篇关于软件复杂度的讨论。如果系统对本质上很复杂的系统进行建模，那么复杂度就必须存在于某个地方，良好的工程设计会将复杂度隔离在系统里容易被管理的地方。对于复杂度的封装要非常谨慎，因为复杂度总是会泄漏。
 * 2021/03/20 - [How to Turn around a Disengaged or Underperforming Employee](2021/3/20): 帮助团队中低绩效的成员进行绩效改善是一件不容易的任务，Light House 给出了一些实践指导去帮助主管如何对低绩效的员工进行辅导，此外还给了一系列关于「如何隔级 one one」的建议。
 * 2021/03/19 - [The Uber Engineering Tech Stack](2021/3/19): 完整、系统地介绍了 Uber 的整个技术栈，从底层存储、网络一直到客户端、前端的框架、语言。
 * 2021/03/18 - [Pinterest Flink Deployment Framework](2021/3/18): Apache  Flink 是一个分布式处理引擎，也是一个数据计算框架。在一个大型团队中落地 Flink 需要解决标准化构建、部署、任务管理等一系列工程问题。本文分享了 Pintrest 工程团队的实践。

@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/23 - [Building a Healthy On-Call Culture](2021/3/23): SoundCloud 的 OnCall 实践分享，比如合适的 OnCall 频率、OnCall 团队大小、培养学习文化等等。
 * 2021/03/22 - [Modern Best Practices for Testing in Java](2021/3/22): Java 测试最佳实践，包括代码风格建议、常见测试模式、一些常见的坑等等。比较有意思的观点有: 不要使用随机数、不用使用内存数据库、不要使用 assertTrue/False、如何 mock 远程服务、Spring Boot 的测试实践等等。
 * 2021/03/21 - [Conservation of complexity](2021/3/21): 又一篇关于软件复杂度的讨论。如果系统对本质上很复杂的系统进行建模，那么复杂度就必须存在于某个地方，良好的工程设计会将复杂度隔离在系统里容易被管理的地方。对于复杂度的封装要非常谨慎，因为复杂度总是会泄漏。
 * 2021/03/20 - [How to Turn around a Disengaged or Underperforming Employee](2021/3/20): 帮助团队中低绩效的成员进行绩效改善是一件不容易的任务，Light House 给出了一些实践指导去帮助主管如何对低绩效的员工进行辅导，此外还给了一系列关于「如何隔级 one one」的建议。

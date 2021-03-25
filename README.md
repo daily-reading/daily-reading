@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/24 - [Detecting memory leaks in Android applications](2021/3/24): 文章分享了 Android 应用常见的内存泄漏模式，介绍了 LeakCanary 的使用实践。
 * 2021/03/23 - [Building a Healthy On-Call Culture](2021/3/23): SoundCloud 的 OnCall 实践分享，比如合适的 OnCall 频率、OnCall 团队大小、培养学习文化等等。
 * 2021/03/22 - [Modern Best Practices for Testing in Java](2021/3/22): Java 测试最佳实践，包括代码风格建议、常见测试模式、一些常见的坑等等。比较有意思的观点有: 不要使用随机数、不用使用内存数据库、不要使用 assertTrue/False、如何 mock 远程服务、Spring Boot 的测试实践等等。
 * 2021/03/21 - [Conservation of complexity](2021/3/21): 又一篇关于软件复杂度的讨论。如果系统对本质上很复杂的系统进行建模，那么复杂度就必须存在于某个地方，良好的工程设计会将复杂度隔离在系统里容易被管理的地方。对于复杂度的封装要非常谨慎，因为复杂度总是会泄漏。

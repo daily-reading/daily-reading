@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/25 - [My Third Year as a Solo Developer](2021/3/25): 作者分享了做独立开发者的一系列故事，包括如何运营一款成功的硬件产品、如何运营博客、如何在 Hacker News 上做推广、如何放弃一个不成功的想法等等。
 * 2021/03/24 - [Detecting memory leaks in Android applications](2021/3/24): 文章分享了 Android 应用常见的内存泄漏模式，介绍了 LeakCanary 的使用实践。
 * 2021/03/23 - [Building a Healthy On-Call Culture](2021/3/23): SoundCloud 的 OnCall 实践分享，比如合适的 OnCall 频率、OnCall 团队大小、培养学习文化等等。
 * 2021/03/22 - [Modern Best Practices for Testing in Java](2021/3/22): Java 测试最佳实践，包括代码风格建议、常见测试模式、一些常见的坑等等。比较有意思的观点有: 不要使用随机数、不用使用内存数据库、不要使用 assertTrue/False、如何 mock 远程服务、Spring Boot 的测试实践等等。

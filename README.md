@@ -15,6 +15,15 @@
 
 ## Index
 
+* 2021/03/27 - [Introducing Epoxy for iOS](2021/3/27): Eproxy，(又)一个新的声明式 iOS UI 框架。
+* 2021/03/26 - [Get better at programming by learning how things work](2021/3/26): 「学习事情是如何运转的」有利于我们写出高质量的代码。平时工作中大部分的实现细节都被一层层抽象给屏蔽了，这在大部分情况下没什么问题。但当我们遇到一些 Bug，一些难以在抽象层之上去解释的行为时，问题会强迫我们去了解细节。学习实现细节对我们写出更好的代码有非常大的帮助，它可以帮助我们通过类比去了解其他陌生的领域。
+* 2021/03/25 - [My Third Year as a Solo Developer](2021/3/25): 作者分享了做独立开发者的一系列故事，包括如何运营一款成功的硬件产品、如何运营博客、如何在 Hacker News 上做推广、如何放弃一个不成功的想法等等。
+* 2021/03/24 - [Detecting memory leaks in Android applications](2021/3/24): 文章分享了 Android 应用常见的内存泄漏模式，介绍了 LeakCanary 的使用实践。
+* 2021/03/23 - [Building a Healthy On-Call Culture](2021/3/23): SoundCloud 的 OnCall 实践分享，比如合适的 OnCall 频率、OnCall 团队大小、培养学习文化等等。
+* 2021/03/22 - [Modern Best Practices for Testing in Java](2021/3/22): Java 测试最佳实践，包括代码风格建议、常见测试模式、一些常见的坑等等。比较有意思的观点有: 不要使用随机数、不用使用内存数据库、不要使用 assertTrue/False、如何 mock 远程服务、Spring Boot 的测试实践等等。
+* 2021/03/21 - [Conservation of complexity](2021/3/21): 又一篇关于软件复杂度的讨论。如果系统对本质上很复杂的系统进行建模，那么复杂度就必须存在于某个地方，良好的工程设计会将复杂度隔离在系统里容易被管理的地方。对于复杂度的封装要非常谨慎，因为复杂度总是会泄漏。
+* 2021/03/20 - [How to Turn around a Disengaged or Underperforming Employee](2021/3/20): 帮助团队中低绩效的成员进行绩效改善是一件不容易的任务，Light House 给出了一些实践指导去帮助主管如何对低绩效的员工进行辅导，此外还给了一系列关于「如何隔级 one one」的建议。
+* 2021/03/19 - [The Uber Engineering Tech Stack](2021/3/19): 完整、系统地介绍了 Uber 的整个技术栈，从底层存储、网络一直到客户端、前端的框架、语言。
 * 2021/03/18 - [Pinterest Flink Deployment Framework](2021/3/18): Apache  Flink 是一个分布式处理引擎，也是一个数据计算框架。在一个大型团队中落地 Flink 需要解决标准化构建、部署、任务管理等一系列工程问题。本文分享了 Pintrest 工程团队的实践。
 * 2021/03/17 - [Uber's Journey Toward Better Data Culture From First Principles](2021/3/17): 想象一下你成为了一个公司的大数据团队负责人 - 在开始设计技术方案前，不妨先想一想组织形式、人、流程的问题。Uber 分享了建设一个数据驱动型团队的经验。
 * 2021/03/16 - [3 Ideas How to Communicate Your Architecture](2021/3/16): 作为架构师，沟通、协调是和架构设计同等重要的工作事项。本文给出了一些沟通协调的建议和技巧，包括时间分配、形式、内容等。

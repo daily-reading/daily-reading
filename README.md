@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/03/30 - [Detecting Image Similarity in (Near) Real-time Using Apache Flink](2021/03/30): Pintrest 面临的一个工程挑战是如何快速在用户标记的图片中检测相似的图片，以此用来检测垃圾信息。Pinterest 的工程师团队使用了 Kafka、Apache Flink、S3、KV 存储、图数据库等组件来构建这么一个大规模图片识别系统。
 * 2021/03/29 - [How We Enable Airbnb Team Members to Code Like a Mobile Engineer](2021/3/29): Airbnb 通过一个内部学习计划，使 45 名工程师掌握了移动端开发的初级技能。本文简略描述了这项计划的步骤与效果。
 * 2021/03/28 - [A Checklist For First-Time Engineering Managers](2021/3/28): 作为一名研发主管，我非常了解刚刚担任管理任务时那种孤独、缺少引导的感觉。这份 Checklist 涵盖了团队建设、交付、协作、愿景和专业成长等多个方面，为新晋的研发主管提供了一些很好的方向与参照标准。
 * 2021/03/27 - [Introducing Epoxy for iOS](2021/3/27): Eproxy，(又)一个新的声明式 iOS UI 框架。

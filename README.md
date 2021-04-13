@@ -15,6 +15,38 @@
 
 ## Index
 
+* 2021/04/13 - [Flipr: Making Changes Quickly and Safely at Scale](2021/4/13): Flipr 是 Uber 的动态开关系统，除了支持按 key 查询以外，Flipr 还引入了 Context 去支持更复杂的开关配置。除此之外 Flipr 还使用了主机 Agent 以加速数据的读取速度。本文分享了 Flipr 的核心架构、规模、安全审计等功能设计。
+* 2021/04/12 - [The BFF Pattern (Backend for Frontend): An Introduction](2021/4/12): BFF 模式是一个经典架构模式，用于解决「后端给前端包数据这一需求」，本文简要概述了这一模式的核心设计理念以及主要组成模块。
+* 2021/03/30 - [Detecting Image Similarity in (Near) Real-time Using Apache Flink](2021/3/30): Pintrest 面临的一个工程挑战是如何快速在用户标记的图片中检测相似的图片，以此用来检测垃圾信息。Pinterest 的工程师团队使用了 Kafka、Apache Flink、S3、KV 存储、图数据库等组件来构建这么一个大规模图片识别系统。
+* 2021/03/29 - [How We Enable Airbnb Team Members to Code Like a Mobile Engineer](2021/3/29): Airbnb 通过一个内部学习计划，使 45 名工程师掌握了移动端开发的初级技能。本文简略描述了这项计划的步骤与效果。
+* 2021/03/28 - [A Checklist For First-Time Engineering Managers](2021/3/28): 作为一名研发主管，我非常了解刚刚担任管理任务时那种孤独、缺少引导的感觉。这份 Checklist 涵盖了团队建设、交付、协作、愿景和专业成长等多个方面，为新晋的研发主管提供了一些很好的方向与参照标准。
+* 2021/03/27 - [Introducing Epoxy for iOS](2021/3/27): Eproxy，(又)一个新的声明式 iOS UI 框架。
+* 2021/03/26 - [Get better at programming by learning how things work](2021/3/26): 「学习事情是如何运转的」有利于我们写出高质量的代码。平时工作中大部分的实现细节都被一层层抽象给屏蔽了，这在大部分情况下没什么问题。但当我们遇到一些 Bug，一些难以在抽象层之上去解释的行为时，问题会强迫我们去了解细节。学习实现细节对我们写出更好的代码有非常大的帮助，它可以帮助我们通过类比去了解其他陌生的领域。
+* 2021/03/25 - [My Third Year as a Solo Developer](2021/3/25): 作者分享了做独立开发者的一系列故事，包括如何运营一款成功的硬件产品、如何运营博客、如何在 Hacker News 上做推广、如何放弃一个不成功的想法等等。
+* 2021/03/24 - [Detecting memory leaks in Android applications](2021/3/24): 文章分享了 Android 应用常见的内存泄漏模式，介绍了 LeakCanary 的使用实践。
+* 2021/03/23 - [Building a Healthy On-Call Culture](2021/3/23): SoundCloud 的 OnCall 实践分享，比如合适的 OnCall 频率、OnCall 团队大小、培养学习文化等等。
+* 2021/03/22 - [Modern Best Practices for Testing in Java](2021/3/22): Java 测试最佳实践，包括代码风格建议、常见测试模式、一些常见的坑等等。比较有意思的观点有: 不要使用随机数、不用使用内存数据库、不要使用 assertTrue/False、如何 mock 远程服务、Spring Boot 的测试实践等等。
+* 2021/03/21 - [Conservation of complexity](2021/3/21): 又一篇关于软件复杂度的讨论。如果系统对本质上很复杂的系统进行建模，那么复杂度就必须存在于某个地方，良好的工程设计会将复杂度隔离在系统里容易被管理的地方。对于复杂度的封装要非常谨慎，因为复杂度总是会泄漏。
+* 2021/03/20 - [How to Turn around a Disengaged or Underperforming Employee](2021/3/20): 帮助团队中低绩效的成员进行绩效改善是一件不容易的任务，Light House 给出了一些实践指导去帮助主管如何对低绩效的员工进行辅导，此外还给了一系列关于「如何隔级 one one」的建议。
+* 2021/03/19 - [The Uber Engineering Tech Stack](2021/3/19): 完整、系统地介绍了 Uber 的整个技术栈，从底层存储、网络一直到客户端、前端的框架、语言。
+* 2021/03/18 - [Pinterest Flink Deployment Framework](2021/3/18): Apache  Flink 是一个分布式处理引擎，也是一个数据计算框架。在一个大型团队中落地 Flink 需要解决标准化构建、部署、任务管理等一系列工程问题。本文分享了 Pintrest 工程团队的实践。
+* 2021/03/17 - [Uber's Journey Toward Better Data Culture From First Principles](2021/3/17): 想象一下你成为了一个公司的大数据团队负责人 - 在开始设计技术方案前，不妨先想一想组织形式、人、流程的问题。Uber 分享了建设一个数据驱动型团队的经验。
+* 2021/03/16 - [3 Ideas How to Communicate Your Architecture](2021/3/16): 作为架构师，沟通、协调是和架构设计同等重要的工作事项。本文给出了一些沟通协调的建议和技巧，包括时间分配、形式、内容等。
+* 2021/03/15 - [How I've Managed to Grow My Career Without Managing People](2021/3/15): IC 与 Manager 的职责上有一个巨大的差异: Manager 总是要为团队的结果负责。这导致不少人其实并没那么 Enjoy Manager 的职业生涯发展道路。作者分享了另一条职业路径，不管人，成为一名优秀的独立贡献者。此外，作者并不是一名工程师，而是一名市场营销人员。
+* 2021/03/14 - [How Individuals Advance at Buffer, Without Becoming Managers](2021/3/14): Buffer 在这篇文章中分享了他们团队中 Manager 与 IC 两条独立的职级发展路径，对于思考个人的职业生涯很有帮助。
+* 2021/03/13 - [The Story of Us: Full Series](:2021/3/13): 作者对于「什么是社会」的一系列思考和阐述。写得非常清晰，用了大量的抽象、比喻来讲清楚一些问题: 什么是一个社会、社会形态发生过什么、正在发生什么。
+* 2021/03/12 - [Web Performance for Product Managers](2021/3/12): 面向产品经理去解释页面为什么会这么慢，以及如何提升性能。文章详细地解释了「百分位数」的概念，所以也很适合作为新工程师的科普。
+* 2021/03/11 - [Modules, monoliths, and microservices](2021/3/11): 又一篇关于模块化、隔离、拆分、边界的讨论，我们可能不需要许多微服务来实现业务需求。文章也提出了一些划分服务边界的参考标准。
+* 2021/03/10 - [An unlikely database migration](2021/3/10): 作者分享了在一家创业公司，从单文件存 JSON 到数据库的整个过程。中间分享了一些对于不同类型数据库的看法，包括 MySQL、PostgreSQL、SqlLite、Perkeep、CockroachDB 等等，最终他们选择了 etcd。
+* 2021/03/09 - [Monorepos: Please don't!](2021/3/9): 作者认为 monorepo 主张的 VSC 对团队的收益率很低，列举了几个传统上认为 monorepo 具有的优势进行了反驳，同时给出了一些 monorepo 独有的缺陷。另外，作者还认为代码的组织是一家公司工程文化和领导才能的直接结果体现，与使用 monorepo 与 polyrepo 无关。
+* 2021/03/08 - [Work, play, and motivation](2021/3/8): 作者认为工作和娱乐的一个主要区别是，娱乐有着更紧密的及时反馈，而工作往往是到最后才会收获。那么我们可以做的一个事情是，改变我们工作的计划，让反馈变得更加及时，从而带来更强的动力。
+* 2021/03/07 - [Preparing for the Systems Design and Coding Interview](2021/3/7): 作者分享了准备技术面试所需要了解的书籍、知识、课程和其他相关资源。
+* 2021/03/06 - [if-else-switch](2021/3/6): 如果要将一个 int 映射成一个 string enum，用 if/else 还是用 switch 更好呢？抑或是使用工厂方法？本文分享了几种不同写法对于抽象和依赖的影响。
+* 2021/03/05 - [Things your manager might not know](2021/3/5): 作者对于「向上管理」的一些思考，介绍了管理者所不能了解到的事情，以及如何通过向上沟通让自己、团队变得更好。
+* 2021/03/04 - [Visualizing Data Timeliness at Airbnb](2021/3/4): 统计数据计算是一个非常复杂的工程，存在着很多不稳定因素，这些因素可能会导致某个数据项计算延迟，或者是计算失败。Airbnb 将数据计算的过程进行了可视化，让每个人都可以轻松发现数据是否有延迟，以及快速分析出数据延迟的原因。
+* 2021/03/03 - [Fighting spam with Guardian, a real-time analytics and rules engine](2021/3/3): 作为一个 UGC 网站，Pintrest 从诞生之初就需要和 Spam 斗智斗勇。本篇文章分享了 Pintrest 如何通过规则引擎实现 Anti-Spam，并且分享了规则引擎的进化过程，最终介绍了 Guardian 系统的整体架构。
+* 2021/03/02 - [Beyond REST](2021/3/2): Netflix 是一个成功落地应用了 GraphQL 的技术团队，这篇文章分享了他们是如何使用 GraphQL 快速开发微服务 API 的。
+* 2021/03/01 - [We Burnt $72K testing Firebase + Cloud Run and almost went Bankrupt](2021/3/1): 一次错误的上云决策，在 2 小时内给一个不到 10 人的创业小团队带来了 7 万美金的云服务账单。
 * 2021/02/23 - [FOQS: Scaling a distributed priority queue](2021/2/23): Facebook 的分布式优先队列系统。
 * 2021/02/22 - [5 Things Low-Code Is Missing](2021/2/22): Low Code 平台是当下热度很高的一个领域，本文介绍了在 Low Code 生态上缺失的五个部分，分别是开发环境、编码的易用性、依赖关系管理、版本控制以及供应商灵活性。
 * 2021/02/21 - [How we designed our Continuous Integration System to be more than 50% Faster](2021/2/21): 本文介绍了 Pintrest 是如何围绕 Bazel 去搭建一个快速的构建系统的。

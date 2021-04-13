@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/04/13 - [Flipr: Making Changes Quickly and Safely at Scale](2021/4/13): Flipr 是 Uber 的动态开关系统，除了支持按 key 查询以外，Flipr 还引入了 Context 去支持更复杂的开关配置。除此之外 Flipr 还使用了主机 Agent 以加速数据的读取速度。本文分享了 Flipr 的核心架构、规模、安全审计等功能设计。
 * 2021/04/12 - [The BFF Pattern (Backend for Frontend): An Introduction](2021/4/12): BFF 模式是一个经典架构模式，用于解决「后端给前端包数据这一需求」，本文简要概述了这一模式的核心设计理念以及主要组成模块。
 * 2021/03/30 - [Detecting Image Similarity in (Near) Real-time Using Apache Flink](2021/3/30): Pintrest 面临的一个工程挑战是如何快速在用户标记的图片中检测相似的图片，以此用来检测垃圾信息。Pinterest 的工程师团队使用了 Kafka、Apache Flink、S3、KV 存储、图数据库等组件来构建这么一个大规模图片识别系统。
 * 2021/03/29 - [How We Enable Airbnb Team Members to Code Like a Mobile Engineer](2021/3/29): Airbnb 通过一个内部学习计划，使 45 名工程师掌握了移动端开发的初级技能。本文简略描述了这项计划的步骤与效果。

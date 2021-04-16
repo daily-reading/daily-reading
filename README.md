@@ -16,7 +16,7 @@
 ## Index
 
 * 2021/04/16 - [An incident response starter-pack: how do you handle production outages?](2021/4/15): 作者分享了多年故障处理的经历，总结了故障处理的一些关键行为: 快速止血、考虑事情的优先级、良好的沟通以及与如何处理压力。
-* 2021/04/15 - [Using K8s Admission Controllers to Detect Container Drift at Runtime](2021/4/15):
+* 2021/04/15 - [Using K8s Admission Controllers to Detect Container Drift at Runtime](2021/4/15): Box 遇到的问题是尽管集群上大部分的容器都是用 gitops 来管理的，但 kubectl 还是有能力直接去做状态变更。所以 Box 用 Admission Controller 实现了对这类 pod 的清理能力。
 * 2021/04/14 - [Scaling Kubernetes with Assurance at Pinterest](2021/4/14) 文章分享了 Pinterest 团队对于 Kubernetes API Server 的高可用建设，分享了两次他们遇到的 k8s 停机故障。
 * 2021/04/13 - [Flipr: Making Changes Quickly and Safely at Scale](2021/4/13): Flipr 是 Uber 的动态开关系统，除了支持按 key 查询以外，Flipr 还引入了 Context 去支持更复杂的开关配置。除此之外 Flipr 还使用了主机 Agent 以加速数据的读取速度。本文分享了 Flipr 的核心架构、规模、安全审计等功能设计。
 * 2021/04/12 - [The BFF Pattern (Backend for Frontend): An Introduction](2021/4/12): BFF 模式是一个经典架构模式，用于解决「后端给前端包数据这一需求」，本文简要概述了这一模式的核心设计理念以及主要组成模块。

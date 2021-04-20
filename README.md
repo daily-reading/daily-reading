@@ -15,7 +15,8 @@
 
 ## Index
 
-* 2021/04/19 - [Layers in Software Architecture that Every Sofware Architect should Know](https://levelup.gitconnected.com/layers-in-software-architecture-that-every-sofware-architect-should-know-76b2452b9d9a): 文章对经典三层架构做了简单的介绍，即展示层、业务层和数据访问层架构。
+* 2021/04/20 - [Effective Microservices: 10 Best Practices](2021/4/20): 微服务不只是把服务拆分这么简单，实际上微服务是一个非常昂贵的架构选择，直到现在还有不少人认为我们不应该选择微服务。本文讨论了微服务的一些实践建议，其中对于支撑微服务的周围生态建设有比较好的讨论，例如 CI/CD、可观测性、技术栈、康威定律、DDD 等等。
+* 2021/04/19 - [Layers in Software Architecture that Every Sofware Architect should Know](2021/4/19): 文章对经典三层架构做了简单的介绍，即展示层、业务层和数据访问层架构。
 * 2021/04/16 - [An incident response starter-pack: how do you handle production outages?](2021/4/15): 作者分享了多年故障处理的经历，总结了故障处理的一些关键行为: 快速止血、考虑事情的优先级、良好的沟通以及与如何处理压力。
 * 2021/04/15 - [Using K8s Admission Controllers to Detect Container Drift at Runtime](2021/4/15): Box 遇到的问题是尽管集群上大部分的容器都是用 gitops 来管理的，但 kubectl 还是有能力直接去做状态变更。所以 Box 用 Admission Controller 实现了对这类 pod 的清理能力。
 * 2021/04/14 - [Scaling Kubernetes with Assurance at Pinterest](2021/4/14) 文章分享了 Pinterest 团队对于 Kubernetes API Server 的高可用建设，分享了两次他们遇到的 k8s 停机故障。

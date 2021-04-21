@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/04/21 - [It's time to say goodbye to the GPL](2021/4/21): 作者认为在现在的环境下，闭源软件已经不是问题，真正的问题是运行在各类云服务平台上的软件系统，一旦平台关闭，那么我们就不能再使用他们（想想 Google Reader）。所以在当前的环境下，GPL 不仅变得毫无意义，还成为了软件自由的阻碍。
 * 2021/04/20 - [Effective Microservices: 10 Best Practices](2021/4/20): 微服务不只是把服务拆分这么简单，实际上微服务是一个非常昂贵的架构选择，直到现在还有不少人认为我们不应该选择微服务。本文讨论了微服务的一些实践建议，其中对于支撑微服务的周围生态建设有比较好的讨论，例如 CI/CD、可观测性、技术栈、康威定律、DDD 等等。
 * 2021/04/19 - [Layers in Software Architecture that Every Sofware Architect should Know](2021/4/19): 文章对经典三层架构做了简单的介绍，即展示层、业务层和数据访问层架构。
 * 2021/04/16 - [An incident response starter-pack: how do you handle production outages?](2021/4/15): 作者分享了多年故障处理的经历，总结了故障处理的一些关键行为: 快速止血、考虑事情的优先级、良好的沟通以及与如何处理压力。

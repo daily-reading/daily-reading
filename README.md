@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/05/12 - [Handling Distributed Transactions in the Microservice world](2021/5/12): 在微服务架构中，要实现分布式事务是很困难的。本文介绍了微服务架构中分布式事务的两种常用实现，两阶段提交与 SAGA，介绍了它们的基本原理与缺陷。
 * 2021/04/25 - [Zanzibar: Google's Consistent, Global Authorization System](2021/4/25): Zanzibar 是 Google 的统一认证系统，它试图解决「某个人是否可以访问某个资源」这一问题。本质上 Zanzibar 是一个 Tuple 存储系统。本文分享了 Google 是如何对「身份认证」进行建模，以及如何设计一个大型的 Tuple 存储系统以支持超大规模、全球一致性、低延迟的身份鉴权问题。
 * 2021/04/22 - [Himeji: A Scalable Centralized System for Authorization at Airbnb](2021/4/22): Airbnb 分享了它们的数据安全平台 Himeji，Himeji 在数据写入时计算各个数据资源的权限分配，然后在数据读取时通过一层水平的权限层去对用户的数据权限进行验证。文章也分享了 Himeji 的架构设计以及性能测试结果。
 * 2021/04/21 - [It's time to say goodbye to the GPL](2021/4/21): 作者认为在现在的环境下，闭源软件已经不是问题，真正的问题是运行在各类云服务平台上的软件系统，一旦平台关闭，那么我们就不能再使用他们（想想 Google Reader）。所以在当前的环境下，GPL 不仅变得毫无意义，还成为了软件自由的阻碍。

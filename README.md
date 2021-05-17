@@ -15,6 +15,7 @@
 
 ## Index
 
+* 2021/05/17 - [Monorepo: please do!](2021/5/17): 本文是对 [Monorepos: Please don't!](2021/3/9) 的回应。文章认为 Monorepo 可以提前发现 API 的不兼容性冲突，从而有利于大规模的代码库管理。
 * 2021/05/13 - [Netflix Drive](2021/5/13): Netflix Drive 是 Netflix 为全球的创作人员提供的一项文件存储服务，它可以让不同地域的创作人员高效地进行协同工作。Netflix Drive 提供了一套 POSIX 接口去适配操作系统的文件系统方案。本文分享了 Netflix Drive 的主要接口设计与大体上的架构。
 * 2021/05/12 - [Handling Distributed Transactions in the Microservice world](2021/5/12): 在微服务架构中，要实现分布式事务是很困难的。本文介绍了微服务架构中分布式事务的两种常用实现，两阶段提交与 SAGA，介绍了它们的基本原理与缺陷。
 * 2021/04/25 - [Zanzibar: Google's Consistent, Global Authorization System](2021/4/25): Zanzibar 是 Google 的统一认证系统，它试图解决「某个人是否可以访问某个资源」这一问题。本质上 Zanzibar 是一个 Tuple 存储系统。本文分享了 Google 是如何对「身份认证」进行建模，以及如何设计一个大型的 Tuple 存储系统以支持超大规模、全球一致性、低延迟的身份鉴权问题。
